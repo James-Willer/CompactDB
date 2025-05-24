@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CompactDB</title>
+  <link rel="icon" href="./assets/favicon.svg" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="top-bar">
+        <div class="logo">
+          <i class="fas fa-database"></i>
+          <h1>CompactDB</h1>
+        </div>
+        <div class="search-container">
+          <div class="search-box">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search for games..." autocomplete="off">
+            <button id="search-button" class="search-button">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="content-container">
+        <div class="page-header">
+          <h2>Compression Analysis</h2>
+          <p>View and analyze compression results from <a href="https://github.com/IridiumIO/CompactGUI" target="_blank" rel="noopener noreferrer">CompactGUI</a></p>
+        </div>
+        
+        <div id="results-container"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
