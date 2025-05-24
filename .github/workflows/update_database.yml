@@ -21,6 +21,11 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       
+      - name: Create data directories
+        run: |
+          mkdir -p data
+          mkdir -p data/chunks
+      
       - name: Download database
         run: |
           curl -L https://raw.githubusercontent.com/IridiumIO/CompactGUI/refs/heads/database/database.json -o database.json
@@ -30,7 +35,7 @@ jobs:
       
       - name: Create index
         run: python utils/create_index.py
-      
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
