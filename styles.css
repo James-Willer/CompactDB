@@ -1,9 +1,11 @@
 :root {
   --primary-color: #4361ee;
   --primary-light: #eef2ff;
-  --secondary-color: #3f37c9;
+  /* --secondary-color: #3f37c9; */
+  /* Not used in the current visible elements */
   --success-color: #4bb543;
   --warning-color: #f9c74f;
+  /* Used for savings color */
   --danger-color: #ef476f;
   --dark-color: #1a1a2e;
   --light-color: #f8f9fa;
@@ -46,192 +48,57 @@ button {
   background: none;
 }
 
-/* Layout */
-.app-container {
-  display: flex;
-  min-height: 100vh;
-}
-
-/* Sidebar */
-.sidebar {
-  width: 260px;
-  background-color: #fff;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
-  display: flex;
-  flex-direction: column;
-  z-index: 10;
-}
-
+/* Logo style for top-bar */
 .logo {
+  /* Used in top-bar */
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0;
   flex-shrink: 0;
-  background: none;
-  border: none;
-  margin: 0;
 }
 
 .logo i {
+  /* Used in top-bar */
   font-size: 1.8rem;
   color: var(--primary-color);
-  margin: 0;
 }
 
 .logo h1 {
+  /* Used in top-bar */
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--dark-color);
   margin: 0;
 }
 
-.nav-menu {
-  padding: 1.5rem 0;
-  flex: 1;
-}
-
-.nav-item {
-  display: flex;
-  align-items: center;
-  padding: 0.75rem 1.5rem;
-  color: var(--gray-color);
-  margin: 0.25rem 0.5rem;
-  border-radius: var(--border-radius);
-  transition: var(--transition);
-}
-
-.nav-item i {
-  font-size: 1.1rem;
-  margin-right: 0.75rem;
-  width: 24px;
-  text-align: center;
-}
-
-.nav-item span {
-  font-weight: 500;
-}
-
-.nav-item:hover, .nav-item.active {
-  background-color: var(--primary-light);
-  color: var(--primary-color);
-}
-
-.nav-item.active {
-  font-weight: 600;
-}
-
-.sidebar-footer {
-  padding: 1.5rem;
-  border-top: 1px solid var(--light-gray);
-}
-
-.user-profile {
-  display: flex;
-  align-items: center;
-}
-
-.avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--primary-light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0.75rem;
-  color: var(--primary-color);
-}
-
-.user-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.username {
-  font-weight: 600;
-  font-size: 0.9rem;
-  color: var(--dark-color);
-}
-
-.user-role {
-  font-size: 0.8rem;
-  color: var(--gray-color);
-  margin-top: 0.1rem;
-}
-
-.savings-visualization {
-  padding: 2rem 2.5rem;
-  background-color: #f8f9fa;
-  border-top: 1px solid #f1f3f5;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.savings-labels {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.85rem;
-  color: var(--gray-color);
-  margin-top: 0.5rem;
-  padding: 0 0.5rem;
-}
-
-.savings-percentage {
-  font-size: 1.2rem;
-  font-weight: 600;
-  text-align: center;
-  color: var(--primary-color);
-  padding: 0.5rem 0;
-}
-
-.savings-bar {
-  width: 100%;
-  height: 12px;
-  background-color: #e9ecef;
-  border-radius: 6px;
-  overflow: hidden;
-  position: relative;
-}
-
-.savings-fill {
-  height: 100%;
-  background-color: var(--primary-color);
-  transition: width 0.3s ease;
-  border-radius: 6px 0 0 6px;
+/* Styles for dynamically created summary elements in JS */
+.summary-label {
+  padding-left: 3.5rem;
+  /* Kept from original for alignment */
 }
 
 .summary-value {
   font-weight: 600;
   color: var(--primary-color);
+  /* Default color, can be overridden by inline styles from JS */
   font-size: 1.1rem;
 }
 
-.summary-label {
-    padding-left: 3.5rem;
-}
-  
-
-.compression-details {
-    padding: 1.5rem 3.5rem;
-    border-top: 1px solid #f1f3f5;
-}
-
-/* Main Content */
+/* Main Content Structure */
 .main-content {
+  /* */
   flex: 1;
+  /* This assumes main-content is part of a flex container, if not, it has no effect. */
+  /* In the provided HTML, it's a direct child of body, not in a flex container. */
+  /* Consider setting min-height: 100vh if it's meant to fill viewport height. */
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; /* Removed: generally better to let content scroll unless specifically needed */
 }
 
 .top-bar {
+  /* */
   background-color: #fff;
   padding: 1rem 2rem;
   display: flex;
@@ -242,24 +109,30 @@ button {
 }
 
 .search-container {
-  align-self: center;
+  /* */
   flex: 1;
+  /* Allows it to take available space in the top-bar */
   max-width: 500px;
   width: 100%;
+  /* Ensures it doesn't shrink below its content if flex space is tight */
   margin: 0 auto;
+  /* Helps center it if top-bar has extra space and justify-content isn't enough */
   display: flex;
   justify-content: center;
+  /* Centers the search-box within */
 }
 
 .search-box {
+  /* */
   position: relative;
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 500px;
+  /* max-width: 500px; /* Redundant, as .search-container already constrains this */
 }
 
 .search-icon {
+  /* */
   position: absolute;
   left: 1rem;
   color: var(--gray-color);
@@ -267,76 +140,50 @@ button {
 }
 
 .search-box input {
+  /* */
   width: 100%;
   padding: 0.65rem 1rem 0.65rem 2.5rem;
   border: 1px solid var(--light-gray);
   border-radius: var(--border-radius);
   font-size: 0.95rem;
   transition: var(--transition);
-  background-color: #f8f9fa;
-  box-sizing: border-box;
-  font-family: var(--font-family);
+  background-color: var(--light-color);
+  /* Changed from #f8f9fa to use variable */
+  font-family: inherit;
+  /* Ensures consistent font */
 }
 
 .search-box input:focus {
+  /* */
   outline: none;
   border-color: var(--primary-color);
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+  /* Consider using a variable for the shadow color if used elsewhere */
 }
 
 .search-button {
-  background: none;
-  border: none;
+  /* */
   color: var(--primary-color);
-  cursor: pointer;
   padding: 0.65rem 1rem;
   font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: var(--transition);
+  border-radius: var(--border-radius);
+  /* Added for consistency with input */
+  margin-left: 0.5rem;
+  /* Added spacing between input and button */
 }
 
 .search-button:hover {
-  background-color: var(--primary-color);
-  color: white;
-  border-radius: var(--border-radius);
-}
-
-.header-actions {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-
-.header-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: var(--transition);
-}
-
-.header-btn:hover {
+  /* */
   background-color: var(--primary-color);
   color: white;
 }
 
-.badge {
-  background-color: var(--danger-color);
-  color: white;
-  font-size: 0.75rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 10px;
-  margin-left: 0.5rem;
-}
-
-/* Content Container */
 .content-container {
+  /* */
   flex: 1;
   padding: 2rem 1rem;
   overflow-y: auto;
@@ -345,6 +192,7 @@ button {
 }
 
 .page-header {
+  /* */
   margin-bottom: 2rem;
   text-align: center;
   padding: 2rem 1rem;
@@ -354,6 +202,7 @@ button {
 }
 
 .page-header h2 {
+  /* */
   font-size: 2rem;
   font-weight: 700;
   color: var(--dark-color);
@@ -362,97 +211,145 @@ button {
 }
 
 .page-header p {
+  /* */
   color: var(--gray-color);
   font-size: 1.1rem;
   margin: 0;
   line-height: 1.4;
 }
 
-/* Results Container */
+/* Results Container & Game Cards */
 #results-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-    padding: 2rem;
-    justify-content: center;
+  /* */
+  display: grid;
+  grid-template-columns: 1fr;
+  /* Creates a single column */
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  /* Adjusted padding, content-container already has some */
+  justify-items: center;
+  /* Centers game cards if they don't fill the column width */
 }
 
-/* Game Card */
+.results-header {
+  /* Dynamically added by JS */
+  grid-column: 1 / -1;
+  /* Ensures header spans full width if grid becomes multi-column */
+  text-align: center;
+  /* Or left, depending on desired look */
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: var(--dark-color);
+}
+
+.results-header h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
 .game-card {
-    background: #fff;
-    border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow);
-    overflow: hidden;
-    transition: var(--transition);
-    border: 1px solid #e9ecef;
-    min-height: 350px;
-    width: 100%;
-    max-width: 700px;
+  /* */
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  transition: var(--transition);
+  border: 1px solid var(--light-gray);
+  /* Changed from #e9ecef */
+  width: 100%;
+  max-width: 700px;
+  /* Max width of a card */
+  animation: fadeIn 0.3s ease-out forwards;
+  /* */
 }
 
 .game-card:hover {
+  /* */
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  /* Darker shadow on hover */
+}
+
+/* Common padding and structure for game card sections */
+.game-header,
+.compression-details,
+/* */
+.extension-list {
+  /* */
+  padding: 1.5rem 3.5rem;
+  /* */
 }
 
 .game-header {
-    padding: 1.5rem 3.5rem;
-    border-bottom: 1px solid #f1f3f5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+  /* */
+  border-bottom: 1px solid var(--light-gray);
+  /* Changed from #f1f3f5 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .game-name {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--dark-color);
-    margin: 0;
-    flex-grow: 1;
+  /* */
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin: 0;
+  flex-grow: 1;
 }
 
-.results-table {
-  width: 100%;
-  border-collapse: collapse;
+mark {
+  /* For highlighted search terms */
+  background-color: rgba(255, 213, 0, 0.3);
+  color: inherit;
+  padding: 0 0.2em;
+  border-radius: 3px;
+}
+
+.compression-summary {
+  /* Dynamically added by JS */
+  padding: 1.5rem 3.5rem;
+  /* Consistent with other sections */
+  display: grid;
+  /* Using grid for better alignment of summary items */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* Responsive columns */
+  gap: 1rem;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.summary-item {
+  /* Dynamically added by JS */
+  display: flex;
+  flex-direction: column;
+  /* Stack label and value */
+  /* align-items: center; /* Or flex-start */
+}
+
+.summary-item .summary-label {
+  /* Override generic .summary-label padding */
+  padding-left: 0;
+  color: var(--gray-color);
   font-size: 0.9rem;
-  table-layout: fixed;
+  margin-bottom: 0.25rem;
 }
 
-.results-table th {
-    text-align: left;
-    padding: 0.8rem 1rem;
-    background-color: #f8f9fa;
-    color: var(--gray-color);
-    font-weight: 500;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
+/* .summary-item .summary-value is handled by general .summary-value */
+
+
+.compression-details {
+  /* */
+  border-top: 1px solid var(--light-gray);
+  /* Or remove if .compression-summary has bottom border */
 }
 
-.results-table td {
-    padding: 0.8rem 1rem;
-    border-bottom: 1px solid #f1f3f5;
-    color: #495057;
-    word-break: break-word;
-    font-size: 1rem;
-}
-
-.results-table tr:last-child td {
-  border-bottom: none;
-}
-
-/* Extension List */
-.extension-list {
-    padding: 1.5rem 3.5rem;
-    background-color: #f8f9fa;
-    border-top: 1px solid #f1f3f5;
-}
-
-.extension-list h3 {
+.compression-details h4,
+/* */
+.extension-list h4 {
+  /* */
   font-size: 0.9rem;
   color: var(--gray-color);
   margin-bottom: 0.75rem;
@@ -462,26 +359,98 @@ button {
   white-space: nowrap;
 }
 
+.results-table {
+  /* */
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  /* Base font size for table content */
+  table-layout: fixed;
+}
+
+.results-table th,
+.results-table td {
+  /* */
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--light-gray);
+  /* Changed from #f1f3f5 */
+  color: #495057;
+  /* Consider a variable if this color is reused */
+  word-break: break-word;
+}
+
+.results-table th {
+  /* */
+  background-color: var(--light-color);
+  /* Changed from #f8f9fa */
+  color: var(--gray-color);
+  font-weight: 500;
+  font-size: 0.9rem;
+  /* Slightly smaller for header */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.results-table tr:last-child td {
+  /* */
+  border-bottom: none;
+}
+
+.extension-list {
+  /* */
+  background-color: var(--light-color);
+  /* Changed from #f8f9fa */
+  border-top: 1px solid var(--light-gray);
+  /* Changed from #f1f3f5 */
+}
+
+.extension-grid {
+  /* Dynamically added by JS */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem 1rem;
+  /* Row and column gap */
+}
+
 .extension-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-    font-size: 1.1rem;
-    align-items: center;
+  /* */
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  /* Adjusted from 1.1rem for consistency */
+  align-items: center;
+}
+
+.extension-name {
+  /* Dynamically added by JS */
+  color: var(--dark-color);
+  /* Or a slightly lighter gray */
+  word-break: break-all;
+  /* If extensions can be long */
+  margin-right: 0.5rem;
 }
 
 .extension-count {
-    color: var(--danger-color);
-    font-weight: 600;
-    font-family: 'JetBrains Mono', monospace;
-    min-width: 70px;
-    text-align: right;
+  /* */
+  color: var(--danger-color);
+  font-weight: 600;
+  font-family: 'JetBrains Mono', monospace;
+  /* Keep if font is available and intended */
+  min-width: 60px;
+  /* Adjusted from 70px */
+  text-align: right;
+  font-size: 0.9rem;
+  /* Slightly smaller to fit */
 }
 
-/* Status Messages */
+/* Status Messages (Loading, No Results, Error) */
 .loading,
 .no-results,
-.search-prompt {
+.error {
+  /* .error class styled for JS error display */
   text-align: center;
   padding: 3rem 1rem;
   color: var(--gray-color);
@@ -489,92 +458,142 @@ button {
   background: #fff;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+  width: 100%;
+  max-width: 700px;
+  /* Consistent with card width */
+  margin: 2rem auto;
+  /* Gives some space around the message */
   grid-column: 1 / -1;
+  /* Ensures it spans all columns in its parent grid */
+}
+
+.loading .spinner {
+  /* Spinner styling */
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: var(--primary-color);
+  animation: spin 1s ease infinite;
+  margin: 0 auto 1rem;
+}
+
+.no-results i,
+.error i {
+  /* Icons in messages */
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.no-results h3,
+.error h3 {
+  /* Headings in messages */
+  color: var(--dark-color);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .no-results {
+  /* Specific to no-results message */
+  color: var(--warning-color);
+  /* Changed from danger to warning, as it's not strictly an error */
+}
+
+.no-results h3 {
+  color: var(--warning-color);
+}
+
+.error {
+  /* Specific to error message */
   color: var(--danger-color);
 }
 
-/* Highlight Matches */
-mark {
-  background-color: rgba(255, 213, 0, 0.3);
-  color: inherit;
-  padding: 0 0.2em;
-  border-radius: 3px;
+.error h3 {
+  color: var(--danger-color);
 }
+
 
 /* Responsive Adjustments */
-@media (max-width: 992px) {
-  .sidebar {
-    width: 80px;
-    overflow: hidden;
-  }
-  
-  .logo h1,
-  .nav-item span,
-  .user-info {
-    display: none;
-  }
-  
-  .logo {
-    justify-content: center;
-    padding: 1.5rem 0.5rem;
-  }
-  
-  .nav-item {
-    justify-content: center;
-    padding: 0.75rem;
-    margin: 0.25rem 0.5rem;
-  }
-  
-  .nav-item i {
-    margin-right: 0;
-    font-size: 1.25rem;
-  }
-  
-  .sidebar-footer {
-    padding: 1rem 0.5rem;
-    text-align: center;
-  }
-  
-  .avatar {
-    margin: 0 auto;
-  }
-}
-
 @media (max-width: 768px) {
   .top-bar {
+    /* */
     flex-direction: column;
     padding: 1rem;
     gap: 1rem;
   }
-  
+
   .search-container {
+    /* */
     width: 100%;
   }
-  
-  .header-actions {
-    margin-left: 0;
-    width: 100%;
-    justify-content: center;
-  }
-  
+
   .content-container {
-    padding: 1.5rem 1rem;
+    /* */
+    padding: 1.5rem 0.5rem;
+    /* Reduced padding */
   }
-  
+
   #results-container {
-    grid-template-columns: 1fr;
+    /* */
+    padding: 1rem 0.5rem;
+  }
+
+  .game-header,
+  .compression-summary,
+  .compression-details,
+  .extension-list {
+    /* */
+    padding: 1rem 1.5rem;
+  }
+
+  .results-table th,
+  .results-table td {
+    /* */
+    padding: 0.6rem 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .results-table th {
+    font-size: 0.75rem;
+    /* Smaller table headers on mobile */
+  }
+
+  .game-name {
+    /* */
+    font-size: 1.3rem;
+  }
+
+  .extension-item {
+    font-size: 0.9rem;
+  }
+
+  .extension-count {
+    font-size: 0.85rem;
   }
 }
 
 /* Animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+
+  /* */
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.game-card {
-  animation: fadeIn 0.3s ease-out forwards;
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
