@@ -40,12 +40,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Add all files in data directory
-          git add data/
-          # Add any new chunk files
-          git add data/chunks/*.json
-          # Add the game index file
-          git add data/game_index.json
+          # Add all files in the data directory
+          git add data
           git status
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update database files"
