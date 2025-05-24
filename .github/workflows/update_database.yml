@@ -1,0 +1,52 @@
+name: Update Database
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run every day at midnight
+  workflow_dispatch:  # Allow manual triggers
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Download database
+        run: |
+          curl -L https://raw.githubusercontent.com/IridiumIO/CompactGUI/refs/heads/database/database.json -o database.json
+      
+      - name: Split database into chunks
+        run: python utils/split_json.py
+      
+      - name: Create index
+        run: python utils/create_index.py
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # Add all files in data directory
+          git add data/
+          # Add any new chunk files
+          git add data/chunks/*.json
+          # Add the game index file
+          git add data/game_index.json
+          git status
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update database files"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
