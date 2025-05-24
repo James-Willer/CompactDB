@@ -11,7 +11,7 @@ def split_json_file(input_file, chunk_size=100):
     num_chunks = (total_entries + chunk_size - 1) // chunk_size  # Ceiling division
     
     # Create output directory if it doesn't exist
-    output_dir = '../data/chunks'
+    output_dir = 'data/chunks'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
@@ -23,8 +23,6 @@ def split_json_file(input_file, chunk_size=100):
         
         # Create filename with index
         output_file = os.path.join(output_dir, f'chunk_{i+1:03d}.json')
-        # Convert to absolute path relative to repository root
-        output_file = os.path.abspath(output_file)
         
         # Write chunk to file
         with open(output_file, 'w', encoding='utf-8') as f:

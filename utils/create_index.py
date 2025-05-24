@@ -4,7 +4,7 @@ from pathlib import Path
 
 def create_index():
     # Get all chunk files
-    chunks_dir = Path('../data/chunks')
+    chunks_dir = Path('data/chunks')
     if not chunks_dir.exists():
         print("No chunks directory found. Please run split_json.py first.")
         return
@@ -27,7 +27,7 @@ def create_index():
                     index[game_name].append(filename)
     
     # Save index in data directory
-    index_path = Path('../data/game_index.json')
+    index_path = Path('data/game_index.json')
     index_path.parent.mkdir(exist_ok=True)
     with open(index_path, 'w', encoding='utf-8') as f:
         json.dump(index, f, indent=2)
