@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const resultsContainer = document.getElementById('results-container');
     const searchInput = document.getElementById('search-input');
     const searchButton = document.getElementById('search-button');
+    const clearSearchButton = document.getElementById('clear-search-button'); // Added clear button
+    const pageHeader = document.getElementById('page-header'); // Added page header
 
     async function loadGameIndex() {
         try {
@@ -21,6 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             gameIndex = await response.json();
             console.log('Game index loaded successfully.');
+            displayInitialState(); // Display initial state after index loads
         } catch (error) {
             console.error('Error loading game index:', error);
             if (resultsContainer) {
@@ -34,7 +37,26 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
-    await loadGameIndex();
+    // New function to display initial welcoming state
+    function displayInitialState() {
+        if (resultsContainer) {
+            resultsContainer.innerHTML = `
+                <div class="initial-empty-state">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h3>Welcome to CompactDB!</h3>
+                    <p>Start by searching for a game in the search bar above to view its compression analysis.</p>
+                    <p>You can search by full or partial game names.</p>
+                </div>
+            `;
+            // Reset page header to its original state if it was changed by a previous search
+            if (pageHeader) {
+                pageHeader.innerHTML = `
+                    <h2>Compression Analysis</h2>
+                    <p>View and analyze compression results from <a href="https://github.com/IridiumIO/CompactGUI" target="_blank" rel="noopener noreferrer">CompactGUI</a></p>
+                `;
+            }
+        }
+    }
 
     function getCompressionTypeName(type) {
         const typeNames = { 0: 'XPRESS4K', 1: 'XPRESS8K', 2: 'XPRESS16K', 3: 'LZX' };
@@ -138,11 +160,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (Object.keys(poorlyCompressed).length > 0) {
             html += `
                 <div class="extension-list">
-                    <h4>Inefficient File Types (Top 5)</h4>
+                    <h4>Inefficient File Types</h4>
                     <div class="extension-grid">
                         ${Object.entries(poorlyCompressed)
                             .sort((a, b) => b[1] - a[1])
-                            .slice(0, 5)
                             .map(([ext, count]) => `
                                 <div class="extension-item">
                                     <span class="extension-name">${ext}</span>
@@ -163,12 +184,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const response = await fetch(path);
                 if (!response.ok) {
                     console.warn(`Pre-count: Failed to fetch chunk ${path}: ${response.status}`);
-                    return []; // Return empty array on fetch error for this chunk
+                    return [];
                 }
                 return await response.json();
             } catch (err) {
                 console.error(`Pre-count: Error fetching chunk ${path}:`, err);
-                return []; // Return empty array on other errors
+                return [];
             }
         });
 
@@ -191,14 +212,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (isLoadingMore) return;
         isLoadingMore = true;
 
-        const resultsGrid = resultsContainer.querySelector('.results-grid');
-        if (!resultsGrid) {
-            console.error("Results grid not found for lazy loading.");
-            isLoadingMore = false;
-            return;
-        }
-
-        const existingSentinel = resultsGrid.querySelector('#lazy-load-sentinel');
+        const existingSentinel = resultsContainer.querySelector('#lazy-load-sentinel');
         if (existingSentinel) existingSentinel.remove();
 
         let newCardsAddedCount = 0;
@@ -206,11 +220,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         for (let i = 0; i < CHUNK_BATCH_SIZE && currentChunkIndex < currentChunkPaths.length; i++) {
             const chunkPath = currentChunkPaths[currentChunkIndex];
-            // No increment of currentChunkIndex here, do it after successful processing attempt
             
             try {
                 const response = await fetch(chunkPath);
-                currentChunkIndex++; // Increment after fetch attempt, regardless of success for this specific chunk
+                currentChunkIndex++;
                 if (!response.ok) {
                     console.warn(`Failed to fetch chunk ${chunkPath}: ${response.status} ${response.statusText}`);
                     continue;
@@ -230,12 +243,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                         }
                     }
                 }
-                resultsGrid.appendChild(fragment);
+                resultsContainer.appendChild(fragment);
             } catch (err) {
                 console.error(`Error loading or processing chunk ${chunkPath}:`, err);
-                // If a chunk fails catastrophically, currentChunkIndex might have already been incremented.
-                // Consider if it should only increment on successful processing.
-                // For now, it increments to avoid getting stuck on a bad chunk path.
             }
         }
 
@@ -248,7 +258,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (currentChunkIndex < currentChunkPaths.length) {
             const sentinel = document.createElement('div');
             sentinel.id = 'lazy-load-sentinel';
-            resultsGrid.appendChild(sentinel);
+            resultsContainer.appendChild(sentinel);
 
             if (intersectionObserver) intersectionObserver.disconnect();
 
@@ -263,7 +273,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 intersectionObserver.disconnect();
                 intersectionObserver = null;
             }
-             // Optional: "All results loaded." message, handled by the final count in header
         }
         isLoadingMore = false;
     }
@@ -287,6 +296,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="spinner"></div>
                 <p>Searching for "${searchTerm}"...</p>
             </div>`;
+        
+        if (pageHeader) {
+            pageHeader.innerHTML = `
+                <h2>Search Results</h2>
+                <p>Displaying compression analysis for games matching "${searchTerm}".</p>
+            `;
+        }
 
         searchTimeout = setTimeout(async () => {
             try {
@@ -296,7 +312,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 const trimmedSearchTerm = searchTerm.trim();
                 if (!trimmedSearchTerm) {
-                    resultsContainer.innerHTML = '';
+                    displayInitialState();
                     isSearching = false;
                     return;
                 }
@@ -326,14 +342,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                     return;
                 }
 
-                // Update loading message before pre-counting
                 const loadingP = resultsContainer.querySelector('.loading p');
                 if (loadingP) loadingP.textContent = `Calculating total results for "${trimmedSearchTerm}"...`;
 
-                // Pre-computation pass to get total results count
                 const totalResults = await getTotalResultsCount(currentChunkPaths, normalizedSearchTerms);
 
-                if (totalResults === 0) { // Double check after precise counting
+                if (totalResults === 0) {
                     resultsContainer.innerHTML = `
                         <div class="no-results">
                             <i class="fas fa-search"></i>
@@ -344,18 +358,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                     return;
                 }
                 
-                resultsContainer.innerHTML = ''; // Clear loading/calculating message
+                resultsContainer.innerHTML = '';
 
                 const resultsHeader = document.createElement('div');
                 resultsHeader.className = 'results-header';
                 resultsHeader.innerHTML = `<h3>${totalResults} ${totalResults === 1 ? 'Result' : 'Results'} for "${trimmedSearchTerm}"</h3>`;
                 resultsContainer.appendChild(resultsHeader);
 
-                const resultsGrid = document.createElement('div');
-                resultsGrid.className = 'results-grid';
-                resultsContainer.appendChild(resultsGrid);
-
-                // Reset for display pass
                 currentChunkIndex = 0;
                 globalSeenGames.clear();
 
@@ -375,10 +384,38 @@ document.addEventListener('DOMContentLoaded', async () => {
         }, 500);
     }
 
+    function toggleClearButton() {
+        if (searchInput.value.trim() !== '') {
+            clearSearchButton.classList.add('visible');
+        } else {
+            clearSearchButton.classList.remove('visible');
+        }
+    }
+
     searchButton.addEventListener('click', () => searchGames(searchInput.value));
     searchInput.addEventListener('keyup', (e) => {
-        if (e.key === 'Enter') searchGames(searchInput.value);
+        toggleClearButton();
+        if (e.key === 'Enter') {
+            searchGames(searchInput.value);
+        } else if (e.key === 'Escape' && searchInput.value.trim() !== '') {
+            searchInput.value = '';
+            toggleClearButton();
+            displayInitialState();
+        }
     });
 
+    clearSearchButton.addEventListener('click', () => {
+        searchInput.value = '';
+        toggleClearButton();
+        if (intersectionObserver) {
+            intersectionObserver.disconnect();
+            intersectionObserver = null;
+        }
+        displayInitialState();
+    });
+
+    searchInput.addEventListener('input', toggleClearButton);
+
     if (searchInput) searchInput.focus();
+    loadGameIndex(); 
 });

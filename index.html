@@ -6,17 +6,11 @@
   <title>CompactDB</title>
   <link rel="icon" href="./assets/favicon.svg" />
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./styles.min.css">
 </head>
 <body>
-
-
-    <!-- Main Content -->
     <main class="main-content">
       <header class="top-bar">
         <div class="logo">
@@ -26,7 +20,10 @@
         <div class="search-container">
           <div class="search-box">
             <i class="fas fa-search search-icon"></i>
-            <input type="text" id="search-input" placeholder="Search for games..." autocomplete="off">
+            <input type="text" id="search-input" placeholder="Search for games, e.g., 'Cyberpunk 2077'..." autocomplete="off">
+            <button id="clear-search-button" class="clear-search-button" title="Clear search">
+                <i class="fas fa-times"></i>
+            </button>
             <button id="search-button" class="search-button">
               <i class="fas fa-arrow-right"></i>
             </button>
@@ -35,7 +32,7 @@
       </header>
 
       <div class="content-container">
-        <div class="page-header">
+        <div class="page-header" id="page-header">
           <h2>Compression Analysis</h2>
           <p>View and analyze compression results from <a href="https://github.com/IridiumIO/CompactGUI" target="_blank" rel="noopener noreferrer">CompactGUI</a></p>
         </div>
@@ -45,6 +42,6 @@
     </main>
   </div>
 
-  <script src="./script.js"></script>
+  <script src="./script.min.js"></script>
 </body>
 </html>

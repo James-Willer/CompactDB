@@ -1,11 +1,8 @@
 :root {
   --primary-color: #4361ee;
   --primary-light: #eef2ff;
-  /* --secondary-color: #3f37c9; */
-  /* Not used in the current visible elements */
   --success-color: #4bb543;
   --warning-color: #f9c74f;
-  /* Used for savings color */
   --danger-color: #ef476f;
   --dark-color: #1a1a2e;
   --light-color: #f8f9fa;
@@ -16,6 +13,7 @@
   --transition: all 0.3s ease;
 }
 
+/* Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -48,9 +46,34 @@ button {
   background: none;
 }
 
-/* Logo style for top-bar */
+/* Layout */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it fills the viewport height */
+}
+
+.content-container {
+  flex: 1;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  z-index: 5;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 1rem; /* Space between logo and search if wrapped */
+}
+
 .logo {
-  /* Used in top-bar */
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -59,88 +82,43 @@ button {
 }
 
 .logo i {
-  /* Used in top-bar */
   font-size: 1.8rem;
   color: var(--primary-color);
 }
 
 .logo h1 {
-  /* Used in top-bar */
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--dark-color);
   margin: 0;
 }
 
-/* Styles for dynamically created summary elements in JS */
-.summary-label {
-  padding-left: 3.5rem;
-  /* Kept from original for alignment */
-}
-
-.summary-value {
-  font-weight: 600;
-  color: var(--primary-color);
-  /* Default color, can be overridden by inline styles from JS */
-  font-size: 1.1rem;
-}
-
-/* Main Content Structure */
-.main-content {
-  /* */
-  flex: 1;
-  /* This assumes main-content is part of a flex container, if not, it has no effect. */
-  /* In the provided HTML, it's a direct child of body, not in a flex container. */
-  /* Consider setting min-height: 100vh if it's meant to fill viewport height. */
-  display: flex;
-  flex-direction: column;
-  /* overflow: hidden; /* Removed: generally better to let content scroll unless specifically needed */
-}
-
-.top-bar {
-  /* */
-  background-color: #fff;
-  padding: 1rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
-  z-index: 5;
-}
-
+/* Search */
 .search-container {
-  /* */
   flex: 1;
-  /* Allows it to take available space in the top-bar */
   max-width: 500px;
   width: 100%;
-  /* Ensures it doesn't shrink below its content if flex space is tight */
   margin: 0 auto;
-  /* Helps center it if top-bar has extra space and justify-content isn't enough */
   display: flex;
   justify-content: center;
-  /* Centers the search-box within */
 }
 
 .search-box {
-  /* */
   position: relative;
   display: flex;
   align-items: center;
   width: 100%;
-  /* max-width: 500px; /* Redundant, as .search-container already constrains this */
 }
 
 .search-icon {
-  /* */
   position: absolute;
   left: 1rem;
   color: var(--gray-color);
   font-size: 1rem;
+  pointer-events: none; /* Allows clicks to pass through to input */
 }
 
 .search-box input {
-  /* */
   width: 100%;
   padding: 0.65rem 1rem 0.65rem 2.5rem;
   border: 1px solid var(--light-gray);
@@ -148,21 +126,16 @@ button {
   font-size: 0.95rem;
   transition: var(--transition);
   background-color: var(--light-color);
-  /* Changed from #f8f9fa to use variable */
   font-family: inherit;
-  /* Ensures consistent font */
 }
 
 .search-box input:focus {
-  /* */
   outline: none;
   border-color: var(--primary-color);
-  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
-  /* Consider using a variable for the shadow color if used elsewhere */
+  box-shadow: 0 0 0 2px rgba(67, 97, 238, 0.2); /* Using primary-color with alpha */
 }
 
 .search-button {
-  /* */
   color: var(--primary-color);
   padding: 0.65rem 1rem;
   font-size: 1rem;
@@ -171,28 +144,44 @@ button {
   justify-content: center;
   transition: var(--transition);
   border-radius: var(--border-radius);
-  /* Added for consistency with input */
   margin-left: 0.5rem;
-  /* Added spacing between input and button */
 }
 
 .search-button:hover {
-  /* */
   background-color: var(--primary-color);
   color: white;
 }
 
-.content-container {
-  /* */
-  flex: 1;
-  padding: 2rem 1rem;
-  overflow-y: auto;
-  max-width: 1200px;
-  margin: 0 auto;
+.clear-search-button {
+    position: absolute;
+    right: 4rem; /* Positioned relative to search-box, adjusted for search-button */
+    color: var(--gray-color);
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    background: transparent;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    opacity: 0; /* Hidden by default */
+    pointer-events: none; /* Prevents interaction when hidden */
 }
 
+.clear-search-button.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.clear-search-button:hover {
+    color: var(--dark-color);
+    background-color: var(--light-gray);
+}
+
+/* Page Header */
 .page-header {
-  /* */
   margin-bottom: 2rem;
   text-align: center;
   padding: 2rem 1rem;
@@ -202,7 +191,6 @@ button {
 }
 
 .page-header h2 {
-  /* */
   font-size: 2rem;
   font-weight: 700;
   color: var(--dark-color);
@@ -211,7 +199,6 @@ button {
 }
 
 .page-header p {
-  /* */
   color: var(--gray-color);
   font-size: 1.1rem;
   margin: 0;
@@ -220,24 +207,17 @@ button {
 
 /* Results Container & Game Cards */
 #results-container {
-  /* */
   display: grid;
-  grid-template-columns: 1fr;
-  /* Creates a single column */
-  gap: 2rem;
+  grid-template-columns: 1fr; /* Single column */
+  gap: 2rem; /* Spacing between cards */
   margin-top: 2rem;
   padding: 0 1rem;
-  /* Adjusted padding, content-container already has some */
-  justify-items: center;
-  /* Centers game cards if they don't fill the column width */
+  justify-items: center; /* Centers cards within the column */
 }
 
 .results-header {
-  /* Dynamically added by JS */
-  grid-column: 1 / -1;
-  /* Ensures header spans full width if grid becomes multi-column */
+  grid-column: 1 / -1; /* Ensures header spans the single column */
   text-align: center;
-  /* Or left, depending on desired look */
   margin-bottom: 1rem;
   font-size: 1.2rem;
   color: var(--dark-color);
@@ -248,43 +228,36 @@ button {
   font-weight: 600;
 }
 
+/* The .results-grid class styling is no longer needed as cards are direct children of #results-container */
+/* Removed previous .results-grid styling */
+
 .game-card {
-  /* */
   background: #fff;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   overflow: hidden;
   transition: var(--transition);
   border: 1px solid var(--light-gray);
-  /* Changed from #e9ecef */
   width: 100%;
-  max-width: 700px;
-  /* Max width of a card */
+  max-width: 700px; /* Set a max-width for the single card */
   animation: fadeIn 0.3s ease-out forwards;
-  /* */
 }
 
 .game-card:hover {
-  /* */
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-  /* Darker shadow on hover */
 }
 
-/* Common padding and structure for game card sections */
+/* Game Card Sections */
 .game-header,
+.compression-summary,
 .compression-details,
-/* */
 .extension-list {
-  /* */
-  padding: 1.5rem 3.5rem;
-  /* */
+  padding: 1.5rem 2rem;
 }
 
 .game-header {
-  /* */
   border-bottom: 1px solid var(--light-gray);
-  /* Changed from #f1f3f5 */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -293,7 +266,6 @@ button {
 }
 
 .game-name {
-  /* */
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--dark-color);
@@ -302,7 +274,6 @@ button {
 }
 
 mark {
-  /* For highlighted search terms */
   background-color: rgba(255, 213, 0, 0.3);
   color: inherit;
   padding: 0 0.2em;
@@ -310,46 +281,36 @@ mark {
 }
 
 .compression-summary {
-  /* Dynamically added by JS */
-  padding: 1.5rem 3.5rem;
-  /* Consistent with other sections */
   display: grid;
-  /* Using grid for better alignment of summary items */
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  /* Responsive columns */
   gap: 1rem;
   border-bottom: 1px solid var(--light-gray);
 }
 
 .summary-item {
-  /* Dynamically added by JS */
   display: flex;
   flex-direction: column;
-  /* Stack label and value */
-  /* align-items: center; /* Or flex-start */
 }
 
 .summary-item .summary-label {
-  /* Override generic .summary-label padding */
   padding-left: 0;
   color: var(--gray-color);
   font-size: 0.9rem;
   margin-bottom: 0.25rem;
 }
 
-/* .summary-item .summary-value is handled by general .summary-value */
-
+.summary-value {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
 
 .compression-details {
-  /* */
   border-top: 1px solid var(--light-gray);
-  /* Or remove if .compression-summary has bottom border */
 }
 
 .compression-details h4,
-/* */
 .extension-list h4 {
-  /* */
   font-size: 0.9rem;
   color: var(--gray-color);
   margin-bottom: 0.75rem;
@@ -360,97 +321,73 @@ mark {
 }
 
 .results-table {
-  /* */
   width: 100%;
   border-collapse: collapse;
   font-size: 1rem;
-  /* Base font size for table content */
   table-layout: fixed;
 }
 
 .results-table th,
 .results-table td {
-  /* */
   padding: 0.8rem 1rem;
   text-align: left;
   border-bottom: 1px solid var(--light-gray);
-  /* Changed from #f1f3f5 */
   color: #495057;
-  /* Consider a variable if this color is reused */
   word-break: break-word;
 }
 
 .results-table th {
-  /* */
   background-color: var(--light-color);
-  /* Changed from #f8f9fa */
   color: var(--gray-color);
   font-weight: 500;
   font-size: 0.9rem;
-  /* Slightly smaller for header */
   text-transform: uppercase;
   letter-spacing: 0.5px;
   white-space: nowrap;
 }
 
 .results-table tr:last-child td {
-  /* */
   border-bottom: none;
 }
 
 .extension-list {
-  /* */
   background-color: var(--light-color);
-  /* Changed from #f8f9fa */
   border-top: 1px solid var(--light-gray);
-  /* Changed from #f1f3f5 */
 }
 
 .extension-grid {
-  /* Dynamically added by JS */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 0.5rem 1rem;
-  /* Row and column gap */
 }
 
 .extension-item {
-  /* */
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0;
   font-size: 1rem;
-  /* Adjusted from 1.1rem for consistency */
   align-items: center;
 }
 
 .extension-name {
-  /* Dynamically added by JS */
   color: var(--dark-color);
-  /* Or a slightly lighter gray */
   word-break: break-all;
-  /* If extensions can be long */
   margin-right: 0.5rem;
 }
 
 .extension-count {
-  /* */
   color: var(--danger-color);
   font-weight: 600;
-  font-family: 'JetBrains Mono', monospace;
-  /* Keep if font is available and intended */
   min-width: 60px;
-  /* Adjusted from 70px */
   text-align: right;
   font-size: 0.9rem;
-  /* Slightly smaller to fit */
 }
 
-/* Status Messages (Loading, No Results, Error) */
+/* Status Messages (Loading, No Results, Error, Initial Empty) */
 .loading,
 .no-results,
-.error {
-  /* .error class styled for JS error display */
+.error,
+.initial-empty-state {
   text-align: center;
   padding: 3rem 1rem;
   color: var(--gray-color);
@@ -459,16 +396,12 @@ mark {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   width: 100%;
-  max-width: 700px;
-  /* Consistent with card width */
+  max-width: 700px; /* Aligns with max-width of game cards */
   margin: 2rem auto;
-  /* Gives some space around the message */
-  grid-column: 1 / -1;
-  /* Ensures it spans all columns in its parent grid */
+  grid-column: 1 / -1; /* Ensures it spans the single column in the grid */
 }
 
 .loading .spinner {
-  /* Spinner styling */
   border: 4px solid rgba(0, 0, 0, 0.1);
   width: 36px;
   height: 36px;
@@ -479,25 +412,23 @@ mark {
 }
 
 .no-results i,
-.error i {
-  /* Icons in messages */
+.error i,
+.initial-empty-state i {
   font-size: 2rem;
   margin-bottom: 0.75rem;
   display: block;
 }
 
 .no-results h3,
-.error h3 {
-  /* Headings in messages */
+.error h3,
+.initial-empty-state h3 {
   color: var(--dark-color);
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 
 .no-results {
-  /* Specific to no-results message */
   color: var(--warning-color);
-  /* Changed from danger to warning, as it's not strictly an error */
 }
 
 .no-results h3 {
@@ -505,7 +436,6 @@ mark {
 }
 
 .error {
-  /* Specific to error message */
   color: var(--danger-color);
 }
 
@@ -513,54 +443,57 @@ mark {
   color: var(--danger-color);
 }
 
+.initial-empty-state {
+  color: var(--gray-color);
+}
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .top-bar {
-    /* */
     flex-direction: column;
     padding: 1rem;
     gap: 1rem;
   }
 
-  .search-container {
-    /* */
-    width: 100%;
+  .search-box input {
+    padding-right: 3rem;
+  }
+
+  .clear-search-button {
+      right: 0.5rem;
   }
 
   .content-container {
-    /* */
     padding: 1.5rem 0.5rem;
-    /* Reduced padding */
   }
 
   #results-container {
-    /* */
     padding: 1rem 0.5rem;
+    gap: 1.5rem;
+  }
+
+  .game-card {
+    max-width: 100%; /* Allow cards to take full width on smaller screens */
   }
 
   .game-header,
   .compression-summary,
   .compression-details,
   .extension-list {
-    /* */
     padding: 1rem 1.5rem;
   }
 
   .results-table th,
   .results-table td {
-    /* */
     padding: 0.6rem 0.5rem;
     font-size: 0.85rem;
   }
 
   .results-table th {
     font-size: 0.75rem;
-    /* Smaller table headers on mobile */
   }
 
   .game-name {
-    /* */
     font-size: 1.3rem;
   }
 
@@ -575,8 +508,6 @@ mark {
 
 /* Animations */
 @keyframes fadeIn {
-
-  /* */
   from {
     opacity: 0;
     transform: translateY(10px);
