@@ -2,7 +2,7 @@ name: Update Database
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run every day at midnight
+    - cron: '0 0 * * 1'  # Run every day at midnight
   workflow_dispatch:  # Allow manual triggers
 
 jobs:
