@@ -1,1988 +1,3043 @@
 [
   {
-    "SteamID": 45400,
-    "GameName": "Fortix",
-    "FolderName": "Fortix",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 3,
-        "BeforeBytes": 119211012,
-        "AfterBytes": 72257997,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 45410,
-    "GameName": "Ignite",
-    "FolderName": "Ignite",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 861351345,
         "AfterBytes": 506311364,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 45450,
-    "GameName": "Fortix 2",
-    "FolderName": "Fortix 2",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 2,
-        "BeforeBytes": 429812427,
-        "AfterBytes": 327086447,
-        "TotalResults": 1
-      },
-      {
+        "BeforeBytes": 861351345,
         "CompType": 3,
-        "BeforeBytes": 429812427,
-        "AfterBytes": 282908841,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 45500,
-    "GameName": "Clickr",
-    "FolderName": "Clickr",
     "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 436632136,
-        "AfterBytes": 115406747,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 45700,
-    "GameName": "Devil May Cry 4",
-    "FolderName": "Devil May Cry 4",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 7920878878,
-        "AfterBytes": 7856385133,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 45710,
-    "GameName": "Dark Void",
-    "FolderName": "Dark Void",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 2,
-        "BeforeBytes": 6827652009,
-        "AfterBytes": 5979090055,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 45730,
-    "GameName": "Dark Void Zero",
-    "FolderName": "Dark Void Zero",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 98293802,
-        "AfterBytes": 42543069,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 45740,
-    "GameName": "Dead Rising 2",
-    "FolderName": "Dead Rising 2",
-    "Confidence": 2,
-    "CompressionResults": [
-      {
-        "CompType": 0,
-        "BeforeBytes": 6930305148,
-        "AfterBytes": 6607824100,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 6941717482,
-        "AfterBytes": 6524552078,
-        "TotalResults": 5
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 6940374951,
-        "AfterBytes": 6444728307,
-        "TotalResults": 5
-      }
-    ],
+    "FolderName": "Ignite",
+    "GameName": "Ignite",
     "PoorlyCompressedExtensions": {
-      ".csv": 88,
+      "": 1,
+      ".CAB": 1,
+      ".cab": 105,
+      ".ogg": 8,
+      ".vdf": 1
+    },
+    "SteamID": 45410,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 327086447,
+        "BeforeBytes": 429812427,
+        "CompType": 2,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 282908841,
+        "BeforeBytes": 429812427,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Fortix 2",
+    "GameName": "Fortix 2",
+    "PoorlyCompressedExtensions": {
+      "": 2,
+      ".cab": 22,
+      ".dat": 442,
+      ".nbo": 1032,
+      ".ogg": 24,
+      ".shader": 18,
+      ".txt": 2,
+      ".vdf": 2
+    },
+    "SteamID": 45450,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 115406747,
+        "BeforeBytes": 436632136,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Clickr",
+    "GameName": "Clickr",
+    "PoorlyCompressedExtensions": {
+      ".manifest": 1,
+      ".ogg": 41,
+      ".pak": 2,
+      ".png": 113,
+      ".pzl": 218
+    },
+    "SteamID": 45500,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 7856385133,
+        "BeforeBytes": 7920878878,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Devil May Cry 4",
+    "GameName": "Devil May Cry 4",
+    "PoorlyCompressedExtensions": {
+      ".arc": 1683,
+      ".cfg": 1,
+      ".msg": 6,
+      ".png": 21,
+      ".rtex": 1,
+      ".sdl": 7,
+      ".sngw": 215,
+      ".ssd": 1,
+      ".txt": 6,
+      ".vdf": 1,
+      ".wmv": 166
+    },
+    "SteamID": 45700,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 5979090055,
+        "BeforeBytes": 6827652009,
+        "CompType": 2,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Dark Void",
+    "GameName": "Dark Void",
+    "PoorlyCompressedExtensions": {
+      ".BIN": 1,
+      ".cab": 123,
+      ".msi": 2,
+      ".properties": 1,
+      ".vdf": 1,
+      ".wmv": 3
+    },
+    "SteamID": 45710,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 42543069,
+        "BeforeBytes": 98293802,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Dark Void Zero",
+    "GameName": "Dark Void Zero",
+    "PoorlyCompressedExtensions": {
+      ".002": 1,
+      ".cab": 7,
+      ".png": 14,
+      ".vdf": 1
+    },
+    "SteamID": 45730,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 6607824100,
+        "BeforeBytes": 6930305148,
+        "CompType": 0,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 6524552078,
+        "BeforeBytes": 6941717482,
+        "CompType": 2,
+        "TotalResults": 5
+      },
+      {
+        "AfterBytes": 6444728307,
+        "BeforeBytes": 6940374951,
+        "CompType": 3,
+        "TotalResults": 5
+      }
+    ],
+    "Confidence": 2,
+    "FolderName": "Dead Rising 2",
+    "GameName": "Dead Rising 2",
+    "PoorlyCompressedExtensions": {
       ".bik": 671,
       ".biz": 11,
-      ".vdf": 11,
-      ".manifest": 11,
+      ".cat": 7,
       ".cfg": 11,
-      ".cat": 7
-    }
+      ".csv": 88,
+      ".manifest": 11,
+      ".vdf": 11
+    },
+    "SteamID": 45740,
+    "TotalFiles": 11
   },
   {
-    "SteamID": 45760,
-    "GameName": "Ultra Street Fighter IV",
-    "FolderName": "Super Street Fighter IV - Arcade Edition",
-    "Confidence": 2,
     "CompressionResults": [
       {
+        "AfterBytes": 12492459199,
+        "BeforeBytes": 16402598855,
         "CompType": 0,
-        "BeforeBytes": 16402572678,
-        "AfterBytes": 12492441691,
-        "TotalResults": 9
+        "TotalResults": 7
       },
       {
-        "CompType": 1,
-        "BeforeBytes": 16304880344,
         "AfterBytes": 12040795842,
+        "BeforeBytes": 16304880344,
+        "CompType": 1,
         "TotalResults": 3
       },
       {
+        "AfterBytes": 11948257245,
+        "BeforeBytes": 16403296845,
         "CompType": 2,
-        "BeforeBytes": 16403180304,
-        "AfterBytes": 11948202436,
-        "TotalResults": 7
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 16402532435,
-        "AfterBytes": 11190236092,
-        "TotalResults": 8
-      }
-    ],
-    "PoorlyCompressedExtensions": {
-      ".emz": 198504,
-      ".eaf": 20957,
-      ".gfx": 1107,
-      ".f4s": 1107,
-      ".wma": 4752,
-      ".wmv": 2564,
-      ".dat": 27,
-      ".png": 108,
-      ".txt": 108
-    }
-  },
-  {
-    "SteamID": 45770,
-    "GameName": "Dead Rising 2: Off the Record",
-    "FolderName": "Dead Rising 2 Off the Record",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 2,
-        "BeforeBytes": 7098506026,
-        "AfterBytes": 6492872936,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 7098596310,
-        "AfterBytes": 6395070396,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 45900,
-    "GameName": "CID The Dummy",
-    "FolderName": "CID The Dummy",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1455076452,
-        "AfterBytes": 1179413983,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46200,
-    "GameName": "A.I.M. Racing",
-    "FolderName": "AIM Racing",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1211997789,
-        "AfterBytes": 930847209,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46220,
-    "GameName": "Classic Car Racing",
-    "FolderName": "Classic Car Racing",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1424949664,
-        "AfterBytes": 604493973,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46230,
-    "GameName": "Streets of Moscow",
-    "FolderName": "Streets of Moscow",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 2672223215,
-        "AfterBytes": 1866709568,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46250,
-    "GameName": "NecroVisioN: Lost Company",
-    "FolderName": "NecrovisioN Lost Company",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 5934505927,
-        "AfterBytes": 3946756965,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 6124810941,
-        "AfterBytes": 4041519927,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46260,
-    "GameName": "Star Wolves 3: Civil War",
-    "FolderName": "Star Wolves 3 Civil War",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 4820279760,
-        "AfterBytes": 3447393081,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 4820279760,
-        "AfterBytes": 3152314496,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46270,
-    "GameName": "Star Wolves",
-    "FolderName": "Star Wolves",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1125356109,
-        "AfterBytes": 1116390749,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46280,
-    "GameName": "Star Wolves 2",
-    "FolderName": "Star Wolves 2",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 2473276350,
-        "AfterBytes": 1727442060,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46290,
-    "GameName": "Theatre of War",
-    "FolderName": "Theatre of War",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 0,
-        "BeforeBytes": 4959117969,
-        "AfterBytes": 4018527304,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 3999694041,
-        "AfterBytes": 3411686965,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46320,
-    "GameName": "Space Rangers",
-    "FolderName": "Space Rangers",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 471055246,
-        "AfterBytes": 454035656,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46330,
-    "GameName": "Space Rangers 2: Reboot",
-    "FolderName": "Space Rangers 2 Reboot",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1458992898,
-        "AfterBytes": 1425197219,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46340,
-    "GameName": "Theatre of War 2: Africa 1943",
-    "FolderName": "Theatre of War 2 Africa 1943",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1609810485,
-        "AfterBytes": 1457352454,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46360,
-    "GameName": "Theatre of War 2: Kursk 1943 ",
-    "FolderName": "Theatre of War II Kursk 1943",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 2013626095,
-        "AfterBytes": 1840788228,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46380,
-    "GameName": "Reign: Conflict of Nations",
-    "FolderName": "Reign Conflict of Nations",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 447214397,
-        "AfterBytes": 407014485,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46400,
-    "GameName": "Greed: Black Border",
-    "FolderName": "Greed Black Border",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 967979003,
-        "AfterBytes": 734812637,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46410,
-    "GameName": "Avencast",
-    "FolderName": "Avencast",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1617536990,
-        "AfterBytes": 1403120858,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46420,
-    "GameName": "Chrome",
-    "FolderName": "Chrome",
-    "Confidence": 1,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 1862804159,
-        "AfterBytes": 1373436326,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 1862804159,
-        "AfterBytes": 1269734380,
-        "TotalResults": 4
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46430,
-    "GameName": "Chrome: Specforce",
-    "FolderName": "Chrome Specforce",
-    "Confidence": 1,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1569261220,
-        "AfterBytes": 1052877023,
-        "TotalResults": 4
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46440,
-    "GameName": "Future Wars",
-    "FolderName": "Future Wars",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 502942145,
-        "AfterBytes": 346632114,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46450,
-    "GameName": "Grotesque Tactics: Evil Heroes",
-    "FolderName": "Grotesque Tactics",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1375676245,
-        "AfterBytes": 1270870943,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46460,
-    "GameName": "Scratches: Director's Cut",
-    "FolderName": "Scratches",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1019735528,
-        "AfterBytes": 1006089444,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46480,
-    "GameName": "Still Life",
-    "FolderName": "Still Life",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1286203121,
-        "AfterBytes": 1193853446,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46490,
-    "GameName": "Still Life 2",
-    "FolderName": "Still life 2",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 4226199028,
-        "AfterBytes": 3966034546,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46500,
-    "GameName": "Syberia",
-    "FolderName": "Syberia",
-    "Confidence": 1,
-    "CompressionResults": [
-      {
-        "CompType": 2,
-        "BeforeBytes": 1239498147,
-        "AfterBytes": 1199383276,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 1250006211,
-        "AfterBytes": 1193969588,
-        "TotalResults": 4
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46510,
-    "GameName": "Syberia 2",
-    "FolderName": "Syberia 2",
-    "Confidence": 1,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 1408450188,
-        "AfterBytes": 1331886179,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 1377806674,
-        "AfterBytes": 1301378056,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 1408451807,
-        "AfterBytes": 1303614254,
-        "TotalResults": 3
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46520,
-    "GameName": "Wasteland Angel",
-    "FolderName": "Wasteland Angel",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1125569934,
-        "AfterBytes": 1037119581,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46540,
-    "GameName": "Trapped Dead",
-    "FolderName": "Trapped Dead",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1162362500,
-        "AfterBytes": 474642364,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46550,
-    "GameName": "Post Mortem",
-    "FolderName": "Post Mortem",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 981094465,
-        "AfterBytes": 940134454,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 974559850,
-        "AfterBytes": 918688247,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46560,
-    "GameName": "Robin Hood",
-    "FolderName": "Robin Hood",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1089822029,
-        "AfterBytes": 656583574,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46570,
-    "GameName": "Grotesque Tactics 2 - Dungeons and Donuts",
-    "FolderName": "Grotesque Tactics 2",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1712851753,
-        "AfterBytes": 1683101782,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46700,
-    "GameName": "Ironclads: American Civil War",
-    "FolderName": "Ironclads American Civil War",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 135616318,
-        "AfterBytes": 55308345,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46710,
-    "GameName": "Ironclads: High Seas",
-    "FolderName": "Ironclads High Seas",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 306258427,
-        "AfterBytes": 111635003,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46720,
-    "GameName": "Dimensity",
-    "FolderName": "Dimensity",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 3545093159,
-        "AfterBytes": 3003366645,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46730,
-    "GameName": "Hazen: The Dark Whispers",
-    "FolderName": "Hazen The Dark Whispers",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 843219562,
-        "AfterBytes": 734515489,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46740,
-    "GameName": "World Basketball Manager 2010",
-    "FolderName": "World Basketball Manager 2010",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 99399757,
-        "AfterBytes": 56052011,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46750,
-    "GameName": "Dark Fall: Lost Souls",
-    "FolderName": "Dark Fall Lost Souls",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1503420935,
-        "AfterBytes": 1304158208,
-        "TotalResults": 3
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46760,
-    "GameName": "Ironclads: Schleswig War 1864",
-    "FolderName": "Ironclads Schleswig War 1864",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 538883877,
-        "AfterBytes": 238611351,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46790,
-    "GameName": "Armada 2526",
-    "FolderName": "Armada 2526",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 1247189537,
-        "AfterBytes": 877199270,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46830,
-    "GameName": "Ironclads: Anglo Russian War 1866",
-    "FolderName": "Ironclads Anglo Russian War 1866",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 600521267,
-        "AfterBytes": 249024954,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46840,
-    "GameName": "Ironclads: Chincha Islands War 1866",
-    "FolderName": "Ironclads Chincha Islands War 1866",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 552303848,
-        "AfterBytes": 236161047,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 46850,
-    "GameName": "Zombie Pirates",
-    "FolderName": "Zombie Pirates",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 723462416,
-        "AfterBytes": 691063041,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47000,
-    "GameName": "4 Elements",
-    "FolderName": "4 Elements",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 57160368,
-        "AfterBytes": 51069192,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47110,
-    "GameName": "Escape from Paradise",
-    "FolderName": "Escape from Paradise",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 38566446,
-        "AfterBytes": 31676204,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47120,
-    "GameName": "Escape from Paradise 2",
-    "FolderName": "Escape from Paradise 2",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 119153582,
-        "AfterBytes": 103357851,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47400,
-    "GameName": "Stronghold 3",
-    "FolderName": "Stronghold3",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 4938549973,
-        "AfterBytes": 4196221767,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47410,
-    "GameName": "Stronghold Kingdoms",
-    "FolderName": "Stronghold Kingdoms",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 2,
-        "BeforeBytes": 50333500,
-        "AfterBytes": 46427070,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47540,
-    "GameName": "Puzzle Quest 2",
-    "FolderName": "PuzzleQuest2",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 470523879,
-        "AfterBytes": 455058675,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47700,
-    "GameName": "Command & Conquer\u2122 4 Tiberian Twilight",
-    "FolderName": "Command and Conquer 4 Tiberian Twilight",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 5921892094,
-        "AfterBytes": 5052034086,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47760,
-    "GameName": "Mass Effect 2 Demo",
-    "FolderName": "Mass Effect 2 Demo",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 2341982478,
-        "AfterBytes": 2004981826,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 2341982478,
-        "AfterBytes": 1979693312,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 2203012425,
-        "AfterBytes": 1784770724,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47780,
-    "GameName": "Dead Space 2",
-    "FolderName": "Dead Space 2",
-    "Confidence": 1,
-    "CompressionResults": [
-      {
-        "CompType": 0,
-        "BeforeBytes": 10021679813,
-        "AfterBytes": 9313068263,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 10048471046,
-        "AfterBytes": 9026490065,
-        "TotalResults": 4
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 10035240200,
-        "AfterBytes": 8810865151,
-        "TotalResults": 3
-      }
-    ],
-    "PoorlyCompressedExtensions": {
-      ".stp": 8,
-      ".cab": 192,
-      ".syn": 8,
-      ".lng": 16,
-      ".jpg": 1072,
-      ".vdf": 8,
-      ".jar": 5,
-      ".ews": 8,
-      ".gif": 3472,
-      ".GIF": 152,
-      ".css": 280,
-      ".JPG": 144,
-      ".vp6": 504,
-      ".log": 77
-    }
-  },
-  {
-    "SteamID": 47790,
-    "GameName": "Medal of Honor(TM) Single Player",
-    "FolderName": "Medal of Honor",
-    "Confidence": 1,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 5349650922,
-        "AfterBytes": 4924828294,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 5449157198,
-        "AfterBytes": 4984528804,
-        "TotalResults": 2
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 5349650922,
-        "AfterBytes": 4788793894,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47810,
-    "GameName": "Dragon Age: Origins - Ultimate Edition",
-    "FolderName": "Dragon Age Ultimate Edition",
-    "Confidence": 2,
-    "CompressionResults": [
-      {
-        "CompType": 0,
-        "BeforeBytes": 25588212008,
-        "AfterBytes": 16742356667,
-        "TotalResults": 7
-      },
-      {
-        "CompType": 1,
-        "BeforeBytes": 25415993373,
-        "AfterBytes": 15887769951,
-        "TotalResults": 2
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 29820785730,
-        "AfterBytes": 19625830996,
         "TotalResults": 6
       },
       {
+        "AfterBytes": 11190281314,
+        "BeforeBytes": 16402583812,
         "CompType": 3,
-        "BeforeBytes": 25918137185,
-        "AfterBytes": 14528069078,
-        "TotalResults": 16
+        "TotalResults": 4
       }
     ],
+    "Confidence": 2,
+    "FolderName": "Super Street Fighter IV - Arcade Edition",
+    "GameName": "Ultra Street Fighter IV",
     "PoorlyCompressedExtensions": {
-      ".ini": 673,
-      ".stp": 31,
-      ".cab": 3280,
-      ".syn": 31,
-      ".css": 1085,
-      ".log": 298,
-      ".PDI": 31,
-      ".INI": 31,
-      ".jpg": 5066,
-      ".vdf": 31,
-      ".ews": 31,
-      ".cur": 2170,
-      ".wav": 22,
-      ".wma": 31,
-      ".jar": 22,
-      ".gif": 13454,
-      ".GIF": 589,
-      ".bik": 1770,
-      ".lng": 62,
-      ".JPG": 564
-    }
+      ".dat": 20,
+      ".eaf": 17648,
+      ".emz": 147040,
+      ".f4s": 820,
+      ".gfx": 820,
+      ".png": 80,
+      ".txt": 80,
+      ".wma": 3520,
+      ".wmv": 1899
+    },
+    "SteamID": 45760,
+    "TotalFiles": 20
   },
   {
-    "SteamID": 47870,
-    "GameName": "Need for Speed: Hot Pursuit",
-    "FolderName": "Need for Speed Hot Pursuit",
-    "Confidence": 0,
     "CompressionResults": [
       {
+        "AfterBytes": 6492872936,
+        "BeforeBytes": 7098506026,
         "CompType": 2,
-        "BeforeBytes": 8414802485,
-        "AfterBytes": 8352830977,
         "TotalResults": 1
       },
       {
+        "AfterBytes": 6395070396,
+        "BeforeBytes": 7098596310,
         "CompType": 3,
-        "BeforeBytes": 8414802485,
-        "AfterBytes": 8319401135,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47890,
-    "GameName": "The Sims\u2122 3",
-    "FolderName": "The Sims 3",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 0,
-        "BeforeBytes": 34380703406,
-        "AfterBytes": 32228692599,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 18897723378,
-        "AfterBytes": 16983591649,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 22879682909,
-        "AfterBytes": 20056324100,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 47920,
-    "GameName": "Shift 2 Unleashed",
-    "FolderName": "Need For Speed Shift 2",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 7864623513,
-        "AfterBytes": 7711224323,
         "TotalResults": 2
       }
     ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 48000,
-    "GameName": "LIMBO",
-    "FolderName": "Limbo",
-    "Confidence": 1,
-    "CompressionResults": [
-      {
-        "CompType": 2,
-        "BeforeBytes": 103683746,
-        "AfterBytes": 93270456,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 103683746,
-        "AfterBytes": 91309426,
-        "TotalResults": 3
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 48150,
-    "GameName": "Voodoo Dice",
-    "FolderName": "Voodoo Dice",
     "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 40782510,
-        "AfterBytes": 36691472,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
+    "FolderName": "Dead Rising 2 Off the Record",
+    "GameName": "Dead Rising 2: Off the Record",
+    "PoorlyCompressedExtensions": {
+      ".anm": 3,
+      ".bct": 13,
+      ".bik": 81,
+      ".biz": 3,
+      ".cat": 2,
+      ".cfg": 3,
+      ".csv": 24,
+      ".manifest": 3,
+      ".vdf": 3
+    },
+    "SteamID": 45770,
+    "TotalFiles": 3
   },
   {
-    "SteamID": 48190,
-    "GameName": "Assassin's Creed Brotherhood",
-    "FolderName": "Assassins Creed Brotherhood",
-    "Confidence": 1,
     "CompressionResults": [
       {
-        "CompType": 1,
-        "BeforeBytes": 11123238497,
-        "AfterBytes": 10605144607,
-        "TotalResults": 3
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 10987864920,
-        "AfterBytes": 10220261090,
-        "TotalResults": 3
-      },
-      {
+        "AfterBytes": 1179413983,
+        "BeforeBytes": 1455076452,
         "CompType": 3,
-        "BeforeBytes": 9999344455,
-        "AfterBytes": 8989172478,
         "TotalResults": 1
       }
     ],
+    "Confidence": 0,
+    "FolderName": "CID The Dummy",
+    "GameName": "CID The Dummy",
     "PoorlyCompressedExtensions": {
-      ".pdf": 92,
+      ".cab": 123,
+      ".exe": 3,
+      ".mpg": 10,
+      ".mus": 44,
+      ".vdf": 1
+    },
+    "SteamID": 45900,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 930847209,
+        "BeforeBytes": 1211997789,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "AIM Racing",
+    "GameName": "A.I.M. Racing",
+    "PoorlyCompressedExtensions": {
+      ".ffe": 20,
+      ".ogg": 632
+    },
+    "SteamID": 46200,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 604493973,
+        "BeforeBytes": 1424949664,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Classic Car Racing",
+    "GameName": "Classic Car Racing",
+    "PoorlyCompressedExtensions": {
+      ".CP1256": 1,
+      ".access": 1,
+      ".bfc": 3,
+      ".cab": 67,
+      ".cam": 155,
+      ".cfg": 1,
+      ".fkd": 1,
+      ".fx": 195,
+      ".gif": 9,
+      ".h": 2,
+      ".inc": 3,
+      ".iw": 1,
+      ".jnt": 28,
+      ".mat": 1656,
+      ".ogg": 26,
+      ".pak": 2,
+      ".policy": 3,
+      ".ppfx": 22,
+      ".psh": 135,
+      ".rls": 2,
+      ".template": 2,
+      ".trk": 17,
+      ".vdf": 1,
+      ".vis": 41,
+      ".vsh": 75
+    },
+    "SteamID": 46220,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1866709568,
+        "BeforeBytes": 2672223215,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Streets of Moscow",
+    "GameName": "Streets of Moscow",
+    "PoorlyCompressedExtensions": {
+      ".cab": 49,
+      ".cfg": 1,
+      ".ddsx": 24,
+      ".mp3": 67,
+      ".ogg": 13,
+      ".url": 1,
+      ".vdf": 1
+    },
+    "SteamID": 46230,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 3946756965,
+        "BeforeBytes": 5934505927,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 4041519927,
+        "BeforeBytes": 6124810941,
+        "CompType": 2,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "NecrovisioN Lost Company",
+    "GameName": "NecroVisioN: Lost Company",
+    "PoorlyCompressedExtensions": {
+      "": 9,
+      ".ico": 1,
+      ".mp3": 66,
+      ".txt": 2
+    },
+    "SteamID": 46250,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 3447393081,
+        "BeforeBytes": 4820279760,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 3152314496,
+        "BeforeBytes": 4820279760,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Star Wolves 3 Civil War",
+    "GameName": "Star Wolves 3: Civil War",
+    "PoorlyCompressedExtensions": {
+      "": 2,
+      ".afx": 24,
+      ".bfx": 16,
+      ".bik": 56,
+      ".cfg": 8,
+      ".dat": 2,
+      ".efl": 44,
+      ".efx": 22,
+      ".env": 116,
+      ".esc": 24,
+      ".exp": 42,
+      ".flsh": 18,
+      ".kbd": 2,
+      ".lst": 10,
+      ".ogg": 4284,
+      ".pst": 134,
+      ".raw": 2,
+      ".rfx": 4,
+      ".shfx": 26,
+      ".spl": 230,
+      ".tga": 6,
+      ".tl": 4,
+      ".xsx": 2
+    },
+    "SteamID": 46260,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1116390749,
+        "BeforeBytes": 1125356109,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Star Wolves",
+    "GameName": "Star Wolves",
+    "PoorlyCompressedExtensions": {
+      ".bik": 7,
+      ".cfg": 1,
+      ".dat": 1,
+      ".ini": 1
+    },
+    "SteamID": 46270,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1727442060,
+        "BeforeBytes": 2473276350,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Star Wolves 2",
+    "GameName": "Star Wolves 2",
+    "PoorlyCompressedExtensions": {
+      "": 1,
+      ".OGG": 31,
+      ".bfx": 6,
+      ".bik": 18,
+      ".cfg": 4,
+      ".dat": 1,
+      ".efl": 18,
+      ".efx": 9,
+      ".env": 22,
+      ".esc": 11,
+      ".exp": 18,
+      ".flsh": 7,
+      ".kbd": 1,
+      ".lst": 5,
+      ".ogg": 677,
+      ".pdf": 1,
+      ".pst": 45,
+      ".raw": 1,
+      ".rfx": 2,
+      ".shfx": 8,
+      ".spl": 69,
+      ".tl": 2,
+      ".txt": 15
+    },
+    "SteamID": 46280,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 4018527304,
+        "BeforeBytes": 4959117969,
+        "CompType": 0,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 3411686965,
+        "BeforeBytes": 3999694041,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Theatre of War",
+    "GameName": "Theatre of War",
+    "PoorlyCompressedExtensions": {
+      ".MAT": 10,
+      ".MCN": 4,
+      ".SFS": 14,
+      ".access": 2,
+      ".avi": 6,
+      ".bfc": 6,
+      ".bxt": 807,
+      ".cab": 246,
+      ".cfg": 2,
+      ".config": 2,
+      ".diag": 9,
+      ".font": 24,
+      ".gif": 14,
+      ".ifl": 2,
+      ".ja": 2,
+      ".jar": 4,
+      ".lnk": 1,
+      ".log": 1,
+      ".mat": 7877,
+      ".mcn": 1,
+      ".mtl": 1,
+      ".policy": 4,
+      ".rect": 83,
+      ".sim": 24,
+      ".static": 6,
+      ".template": 4,
+      ".txl": 2,
+      ".usr": 2,
+      ".vdf": 3
+    },
+    "SteamID": 46290,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 454035656,
+        "BeforeBytes": 471055246,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Space Rangers",
+    "GameName": "Space Rangers",
+    "PoorlyCompressedExtensions": {
+      ".chm": 1,
+      ".dat": 25,
+      ".log": 1,
+      ".pkg": 15,
+      ".png": 2,
+      ".txt": 2,
+      ".url": 2,
+      ".vdf": 1
+    },
+    "SteamID": 46320,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1425197219,
+        "BeforeBytes": 1458992898,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Space Rangers 2 Reboot",
+    "GameName": "Space Rangers 2: Reboot",
+    "PoorlyCompressedExtensions": {
+      ".css": 1,
+      ".dat": 40,
+      ".gif": 51,
+      ".jpg": 293,
+      ".pkg": 14,
+      ".txt": 2,
+      ".url": 4,
+      ".vdf": 1,
+      ".vdo": 5
+    },
+    "SteamID": 46330,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1457352454,
+        "BeforeBytes": 1609810485,
+        "CompType": 3,
+        "TotalResults": 2
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Theatre of War 2 Africa 1943",
+    "GameName": "Theatre of War 2: Africa 1943",
+    "PoorlyCompressedExtensions": {
+      ".MAT": 4,
+      ".SFS": 12,
+      ".access": 2,
+      ".avi": 2,
+      ".bfc": 6,
+      ".cfg": 2,
+      ".config": 4,
+      ".font": 108,
+      ".gif": 14,
+      ".ja": 2,
+      ".jar": 4,
+      ".mat": 728,
+      ".mcn": 2,
+      ".policy": 4,
+      ".rect": 2,
+      ".sim": 52,
+      ".template": 4,
+      ".txl": 2,
+      ".vdf": 4
+    },
+    "SteamID": 46340,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1840788228,
+        "BeforeBytes": 2013626095,
+        "CompType": 3,
+        "TotalResults": 2
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Theatre of War II Kursk 1943",
+    "GameName": "Theatre of War 2: Kursk 1943 ",
+    "PoorlyCompressedExtensions": {
+      ".SFS": 12,
+      ".access": 2,
+      ".avi": 6,
+      ".bfc": 6,
+      ".cfg": 2,
+      ".config": 4,
+      ".font": 108,
+      ".gif": 14,
+      ".ja": 2,
+      ".jar": 4,
+      ".mat": 242,
+      ".mcn": 2,
+      ".policy": 4,
+      ".sim": 2,
+      ".template": 4,
+      ".vdf": 4
+    },
+    "SteamID": 46360,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 407014485,
+        "BeforeBytes": 447214397,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Reign Conflict of Nations",
+    "GameName": "Reign: Conflict of Nations",
+    "PoorlyCompressedExtensions": {
+      ".level": 1,
+      ".ogg": 3,
+      ".start": 1,
+      ".txt": 1,
+      ".xml": 2
+    },
+    "SteamID": 46380,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 734812637,
+        "BeforeBytes": 967979003,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Greed Black Border",
+    "GameName": "Greed: Black Border",
+    "PoorlyCompressedExtensions": {
+      ".cab": 157,
+      ".fxi": 8,
+      ".ifl": 3,
+      ".ogg": 631,
+      ".pdf": 2,
+      ".png": 433,
+      ".txt": 4,
+      ".vdf": 1,
+      ".wmv": 5
+    },
+    "SteamID": 46400,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1403120858,
+        "BeforeBytes": 1617536990,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Avencast",
+    "GameName": "Avencast",
+    "PoorlyCompressedExtensions": {
+      ".c": 1339,
+      ".cfg": 97,
+      ".ifl": 2,
+      ".ogg": 760,
+      ".png": 494,
+      ".txt": 3,
+      ".vsd": 31,
+      ".vsd_old": 1,
+      ".wmv": 12
+    },
+    "SteamID": 46410,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1373436326,
+        "BeforeBytes": 1862804159,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1269734380,
+        "BeforeBytes": 1862804159,
+        "CompType": 3,
+        "TotalResults": 2
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Chrome",
+    "GameName": "Chrome",
+    "PoorlyCompressedExtensions": {
+      ".PNG": 15,
+      ".ZIP": 12,
+      ".cab": 12,
+      ".cfg": 3,
+      ".class": 3,
+      ".fkd": 3,
+      ".gif": 21,
+      ".html": 3,
+      ".iw": 3,
+      ".lib": 3,
+      ".mat": 3555,
+      ".ogg": 3249,
+      ".pak": 4,
+      ".phn": 2880,
+      ".png": 4554,
+      ".policy": 3,
+      ".psh": 99,
+      ".skin": 9,
+      ".trm": 6,
+      ".url": 6,
+      ".vdf": 3,
+      ".vsh": 12,
+      ".zip": 192
+    },
+    "SteamID": 46420,
+    "TotalFiles": 3
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1052877023,
+        "BeforeBytes": 1569261220,
+        "CompType": 3,
+        "TotalResults": 2
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Chrome Specforce",
+    "GameName": "Chrome: Specforce",
+    "PoorlyCompressedExtensions": {
+      ".CAB": 2,
+      ".bat": 4,
+      ".cab": 10,
+      ".cfg": 2,
+      ".fkd": 2,
+      ".gif": 14,
+      ".html": 2,
+      ".iw": 2,
+      ".lib": 2,
+      ".log": 2,
+      ".mat": 3042,
+      ".nbattrs": 2,
+      ".ogg": 1060,
+      ".png": 802,
+      ".policy": 2,
+      ".project": 8,
+      ".psh": 90,
+      ".skin": 6,
+      ".trm": 2,
+      ".url": 4,
+      ".vdf": 2,
+      ".vsh": 100,
+      ".zip": 54
+    },
+    "SteamID": 46430,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 346632114,
+        "BeforeBytes": 502942145,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Future Wars",
+    "GameName": "Future Wars",
+    "PoorlyCompressedExtensions": {
+      ".bin": 1,
+      ".cab": 137,
+      ".pdf": 6,
+      ".vdf": 1,
+      ".wmv": 3,
+      ".xgs": 1
+    },
+    "SteamID": 46440,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1270870943,
+        "BeforeBytes": 1375676245,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Grotesque Tactics",
+    "GameName": "Grotesque Tactics: Evil Heroes",
+    "PoorlyCompressedExtensions": {
+      ".bat": 1,
+      ".cab": 123,
+      ".db": 1,
+      ".def": 1,
+      ".fnt": 4,
+      ".mp3": 1,
+      ".ogg": 2,
+      ".pdf": 2,
+      ".png": 7,
+      ".template": 1,
+      ".v": 5,
+      ".vdf": 1,
+      ".wmv": 1
+    },
+    "SteamID": 46450,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1006089444,
+        "BeforeBytes": 1019735528,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Scratches",
+    "GameName": "Scratches: Director's Cut",
+    "PoorlyCompressedExtensions": {
+      ".cfg": 1,
+      ".ico": 1,
+      ".res": 2,
+      ".srt": 1,
+      ".vdf": 1
+    },
+    "SteamID": 46460,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1193853446,
+        "BeforeBytes": 1286203121,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Still Life",
+    "GameName": "Still Life",
+    "PoorlyCompressedExtensions": {
+      ".bik": 42,
+      ".cmo": 26,
+      ".dat": 2,
+      ".manifest": 1,
+      ".ogg": 2368,
+      ".txt": 2,
+      ".url": 1,
+      ".vdf": 1
+    },
+    "SteamID": 46480,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 3966034546,
+        "BeforeBytes": 4226199028,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Still life 2",
+    "GameName": "Still Life 2",
+    "PoorlyCompressedExtensions": {
+      "": 2,
+      ".cab": 103,
+      ".vdf": 1
+    },
+    "SteamID": 46490,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1199383276,
+        "BeforeBytes": 1239498147,
+        "CompType": 2,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1193969588,
+        "BeforeBytes": 1250006211,
+        "CompType": 3,
+        "TotalResults": 4
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Syberia",
+    "GameName": "Syberia",
+    "PoorlyCompressedExtensions": {
+      ".CAB": 5,
+      ".cab": 25,
+      ".cmo": 215,
+      ".manifest": 5,
+      ".mp3": 14470,
+      ".msi": 5,
+      ".pdf": 8,
+      ".syb": 1370,
+      ".syj": 2770,
+      ".url": 5
+    },
+    "SteamID": 46500,
+    "TotalFiles": 5
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1331886179,
+        "BeforeBytes": 1408450188,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1301378056,
+        "BeforeBytes": 1377806674,
+        "CompType": 2,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1303614254,
+        "BeforeBytes": 1408451807,
+        "CompType": 3,
+        "TotalResults": 3
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Syberia 2",
+    "GameName": "Syberia 2",
+    "PoorlyCompressedExtensions": {
+      ".bik": 300,
+      ".cmo": 180,
+      ".manifest": 5,
+      ".scc": 5,
+      ".txt": 10,
+      ".url": 5
+    },
+    "SteamID": 46510,
+    "TotalFiles": 5
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1037119581,
+        "BeforeBytes": 1125569934,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Wasteland Angel",
+    "GameName": "Wasteland Angel",
+    "PoorlyCompressedExtensions": {
+      ".cab": 154,
+      ".font": 40,
+      ".log": 1,
+      ".metagen": 1,
+      ".vdf": 1,
+      ".wmv": 12
+    },
+    "SteamID": 46520,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 474642364,
+        "BeforeBytes": 1162362500,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Trapped Dead",
+    "GameName": "Trapped Dead",
+    "PoorlyCompressedExtensions": {
+      ".log": 1,
+      ".txt": 1,
+      ".vdf": 1,
+      ".wmv": 2,
+      ".xml": 1
+    },
+    "SteamID": 46540,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 940134454,
+        "BeforeBytes": 981094465,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 918688247,
+        "BeforeBytes": 974559850,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Post Mortem",
+    "GameName": "Post Mortem",
+    "PoorlyCompressedExtensions": {
+      ".cmo": 38,
+      ".ini": 2,
+      ".jpg": 798,
+      ".mp3": 3902,
+      ".par": 58,
+      ".vdf": 2
+    },
+    "SteamID": 46550,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 656583574,
+        "BeforeBytes": 1089822029,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Robin Hood",
+    "GameName": "Robin Hood",
+    "PoorlyCompressedExtensions": {
+      "": 1,
+      ".CAB": 1,
+      ".bck": 1,
+      ".cab": 5,
+      ".cfg": 3,
+      ".dat": 34,
+      ".ini": 1,
+      ".log": 1,
+      ".manifest": 1,
+      ".map": 20,
+      ".min": 28,
+      ".msi": 1,
+      ".pak": 2,
+      ".red": 57,
+      ".sfk": 8,
+      ".sxt": 1,
+      ".tfn": 16,
+      ".txt": 1,
+      ".url": 1,
+      ".vid": 2
+    },
+    "SteamID": 46560,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1683101782,
+        "BeforeBytes": 1712851753,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Grotesque Tactics 2",
+    "GameName": "Grotesque Tactics 2 - Dungeons and Donuts",
+    "PoorlyCompressedExtensions": {
+      ".bat": 1,
+      ".cab": 154,
+      ".log": 1,
+      ".txt": 1,
+      ".vdf": 1,
+      ".zip": 6
+    },
+    "SteamID": 46570,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 55308345,
+        "BeforeBytes": 135616318,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Ironclads American Civil War",
+    "GameName": "Ironclads: American Civil War",
+    "PoorlyCompressedExtensions": {
+      ".X": 83,
+      ".cur": 6,
+      ".ico": 4,
+      ".jpg": 50,
+      ".ogg": 9,
+      ".pdf": 1,
+      ".png": 134,
+      ".psparam": 6,
+      ".slt": 1,
+      ".txt": 4,
+      ".url": 1
+    },
+    "SteamID": 46700,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 111635003,
+        "BeforeBytes": 306258427,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Ironclads High Seas",
+    "GameName": "Ironclads: High Seas",
+    "PoorlyCompressedExtensions": {
+      ".X": 41,
+      ".bmp": 1,
+      ".cur": 4,
+      ".ico": 4,
+      ".infobjxml": 12,
+      ".ini": 3,
+      ".manifest": 1,
+      ".mapenvxml": 10,
+      ".movobjxml": 24,
+      ".ogg": 18,
+      ".png": 10,
+      ".slt": 1,
+      ".ssxml": 17,
+      ".txt": 2,
+      ".url": 1
+    },
+    "SteamID": 46710,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 3003366645,
+        "BeforeBytes": 3545093159,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Dimensity",
+    "GameName": "Dimensity",
+    "PoorlyCompressedExtensions": {
+      ".anm": 2,
+      ".aui": 364,
+      ".cab": 85,
+      ".gcfg": 41,
+      ".ico": 4,
+      ".psh": 34,
+      ".uip": 1,
+      ".url": 2,
+      ".vsh": 57,
+      ".wma": 173,
+      ".zip": 9
+    },
+    "SteamID": 46720,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 734515489,
+        "BeforeBytes": 843219562,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Hazen The Dark Whispers",
+    "GameName": "Hazen: The Dark Whispers",
+    "PoorlyCompressedExtensions": {
+      ".aui": 359,
+      ".def": 1,
+      ".gcfg": 7,
+      ".ico": 2,
+      ".psh": 44,
+      ".txt": 2,
+      ".url": 1,
+      ".vsh": 67,
+      ".xma": 47,
+      ".zip": 8
+    },
+    "SteamID": 46730,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 56052011,
+        "BeforeBytes": 99399757,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "World Basketball Manager 2010",
+    "GameName": "World Basketball Manager 2010",
+    "PoorlyCompressedExtensions": {
+      ".bmp": 1,
+      ".config": 1,
+      ".txt": 1,
+      ".xsd": 2
+    },
+    "SteamID": 46740,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1304158208,
+        "BeforeBytes": 1503420935,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Dark Fall Lost Souls",
+    "GameName": "Dark Fall: Lost Souls",
+    "PoorlyCompressedExtensions": {},
+    "SteamID": 46750,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 238611351,
+        "BeforeBytes": 538883877,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Ironclads Schleswig War 1864",
+    "GameName": "Ironclads: Schleswig War 1864",
+    "PoorlyCompressedExtensions": {
+      ".X": 32,
+      ".bmp": 1,
+      ".cab": 154,
+      ".cur": 4,
+      ".ico": 4,
+      ".infobjxml": 19,
+      ".ini": 2,
+      ".manifest": 2,
+      ".mapenvxml": 9,
+      ".movobjxml": 18,
+      ".ogg": 18,
+      ".png": 5,
+      ".slt": 1,
+      ".ssxml": 17,
+      ".txt": 2,
+      ".url": 1,
+      ".vdf": 1,
+      ".xml": 1
+    },
+    "SteamID": 46760,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 877199270,
+        "BeforeBytes": 1247189537,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Armada 2526",
+    "GameName": "Armada 2526",
+    "PoorlyCompressedExtensions": {
+      ".application": 1,
+      ".cur": 8,
+      ".exe": 3,
+      ".ico": 4,
+      ".mpg": 169,
+      ".ogg": 139,
+      ".png": 674,
+      ".url": 1,
+      ".vdf": 1,
+      ".wav": 1
+    },
+    "SteamID": 46790,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 249024954,
+        "BeforeBytes": 600521267,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Ironclads Anglo Russian War 1866",
+    "GameName": "Ironclads: Anglo Russian War 1866",
+    "PoorlyCompressedExtensions": {
+      ".X": 36,
+      ".bmguixml": 1,
+      ".bmp": 1,
+      ".cab": 154,
+      ".cur": 4,
+      ".ico": 4,
+      ".infobjxml": 30,
+      ".ini": 2,
+      ".mapenvxml": 9,
+      ".movobjxml": 20,
+      ".ogg": 18,
+      ".png": 5,
+      ".slt": 1,
+      ".ssxml": 17,
+      ".txt": 2,
+      ".url": 1,
+      ".vdf": 1,
+      ".xml": 1
+    },
+    "SteamID": 46830,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 236161047,
+        "BeforeBytes": 552303848,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Ironclads Chincha Islands War 1866",
+    "GameName": "Ironclads: Chincha Islands War 1866",
+    "PoorlyCompressedExtensions": {
+      ".X": 29,
+      ".bmguixml": 1,
+      ".bmp": 1,
+      ".cab": 154,
+      ".cur": 4,
+      ".ico": 4,
+      ".infobjxml": 24,
+      ".ini": 2,
+      ".mapenvxml": 9,
+      ".movobjxml": 16,
+      ".ogg": 18,
+      ".png": 5,
+      ".slt": 1,
+      ".ssxml": 17,
+      ".txt": 2,
+      ".url": 1,
+      ".vdf": 1,
+      ".xml": 1
+    },
+    "SteamID": 46840,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 691063041,
+        "BeforeBytes": 723462416,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Zombie Pirates",
+    "GameName": "Zombie Pirates",
+    "PoorlyCompressedExtensions": {
+      ".exe": 2,
+      ".ico": 3,
+      ".url": 1,
+      ".vdf": 1,
+      ".wma": 6,
+      ".wmv": 12
+    },
+    "SteamID": 46850,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 51069192,
+        "BeforeBytes": 57160368,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "4 Elements",
+    "GameName": "4 Elements",
+    "PoorlyCompressedExtensions": {
+      ".jpg": 3504,
+      ".ogg": 151
+    },
+    "SteamID": 47000,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 31676204,
+        "BeforeBytes": 38566446,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Escape from Paradise",
+    "GameName": "Escape from Paradise",
+    "PoorlyCompressedExtensions": {
+      ".cct": 3,
+      ".cst": 1,
+      ".ini": 1,
+      ".par": 8,
+      ".txt": 8
+    },
+    "SteamID": 47110,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 103357851,
+        "BeforeBytes": 119153582,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Escape from Paradise 2",
+    "GameName": "Escape from Paradise 2",
+    "PoorlyCompressedExtensions": {
+      ".cst": 1,
+      ".dcr": 9,
+      ".ddr": 1,
+      ".em3": 3,
+      ".ini": 1,
+      ".png": 3
+    },
+    "SteamID": 47120,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 4196221767,
+        "BeforeBytes": 4938549973,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Stronghold3",
+    "GameName": "Stronghold 3",
+    "PoorlyCompressedExtensions": {
+      ".atlas": 6,
+      ".bik": 44,
+      ".cab": 154,
+      ".config": 1,
+      ".def": 1,
+      ".exe": 10,
+      ".fnt": 4,
+      ".jpg": 2,
+      ".tga": 1,
+      ".vExporter": 2,
+      ".vdf": 1
+    },
+    "SteamID": 47400,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 46427070,
+        "BeforeBytes": 50333500,
+        "CompType": 2,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Stronghold Kingdoms",
+    "GameName": "Stronghold Kingdoms",
+    "PoorlyCompressedExtensions": {
+      ".DLL": 3,
+      ".cab": 18,
+      ".config": 1,
+      ".exe": 4,
+      ".txt": 1,
+      ".vdf": 1
+    },
+    "SteamID": 47410,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 455058675,
+        "BeforeBytes": 470523879,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "PuzzleQuest2",
+    "GameName": "Puzzle Quest 2",
+    "PoorlyCompressedExtensions": {
+      ".manifest": 1,
+      ".txt": 1,
+      ".vdf": 1,
+      ".zip": 3
+    },
+    "SteamID": 47540,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 5052034086,
+        "BeforeBytes": 5921892094,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Command and Conquer 4 Tiberian Twilight",
+    "GameName": "Command & Conquer\u2122 4 Tiberian Twilight",
+    "PoorlyCompressedExtensions": {
+      ".GIF": 19,
+      ".JPG": 18,
+      ".SkuDef": 1,
+      ".cab": 138,
+      ".css": 35,
+      ".cur": 8,
+      ".ews": 1,
+      ".gif": 434,
+      ".jpg": 134,
+      ".lng": 2,
+      ".log": 11,
+      ".stp": 1,
+      ".syn": 1,
+      ".vdf": 1,
+      ".vp6": 241
+    },
+    "SteamID": 47700,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 2004981826,
+        "BeforeBytes": 2341982478,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1979693312,
+        "BeforeBytes": 2341982478,
+        "CompType": 2,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1784770724,
+        "BeforeBytes": 2203012425,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Mass Effect 2 Demo",
+    "GameName": "Mass Effect 2 Demo",
+    "PoorlyCompressedExtensions": {
+      ".GIF": 40,
+      ".JPG": 39,
+      ".bik": 63,
+      ".cab": 211,
+      ".css": 75,
+      ".ews": 3,
+      ".gif": 958,
+      ".jar": 2,
+      ".jpg": 282,
+      ".lng": 6,
+      ".log": 24,
+      ".stp": 3,
+      ".syn": 3,
+      ".vdf": 3,
+      ".wma": 3
+    },
+    "SteamID": 47760,
+    "TotalFiles": 3
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 9313068263,
+        "BeforeBytes": 10021679813,
+        "CompType": 0,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 9026490065,
+        "BeforeBytes": 10048471046,
+        "CompType": 2,
+        "TotalResults": 4
+      },
+      {
+        "AfterBytes": 8810865151,
+        "BeforeBytes": 10035240200,
+        "CompType": 3,
+        "TotalResults": 3
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Dead Space 2",
+    "GameName": "Dead Space 2",
+    "PoorlyCompressedExtensions": {
+      ".GIF": 152,
+      ".JPG": 144,
+      ".cab": 192,
+      ".css": 280,
+      ".ews": 8,
+      ".gif": 3472,
+      ".jar": 5,
+      ".jpg": 1072,
+      ".lng": 16,
+      ".log": 77,
+      ".stp": 8,
+      ".syn": 8,
+      ".vdf": 8,
+      ".vp6": 504
+    },
+    "SteamID": 47780,
+    "TotalFiles": 8
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 4924828294,
+        "BeforeBytes": 5349650922,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 4984528804,
+        "BeforeBytes": 5449157198,
+        "CompType": 2,
+        "TotalResults": 2
+      },
+      {
+        "AfterBytes": 4788793894,
+        "BeforeBytes": 5349650922,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Medal of Honor",
+    "GameName": "Medal of Honor(TM) Single Player",
+    "PoorlyCompressedExtensions": {
+      "": 4,
+      ".Arch01": 4,
+      ".GIF": 76,
+      ".JPG": 72,
+      ".bik": 4,
+      ".cab": 576,
+      ".css": 140,
+      ".dat": 4,
+      ".dia": 4,
+      ".ews": 4,
+      ".gif": 1736,
+      ".hal": 8,
+      ".jar": 3,
+      ".jpg": 540,
+      ".kea": 4,
+      ".lng": 8,
+      ".log": 33,
+      ".nfs": 4,
+      ".pat": 4,
+      ".stp": 4,
+      ".sub": 4,
+      ".syn": 4,
+      ".tfc": 8,
+      ".vp6": 67,
+      ".xxx": 1085
+    },
+    "SteamID": 47790,
+    "TotalFiles": 4
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 16742356667,
+        "BeforeBytes": 25588212008,
+        "CompType": 0,
+        "TotalResults": 7
+      },
+      {
+        "AfterBytes": 15887769951,
+        "BeforeBytes": 25415993373,
+        "CompType": 1,
+        "TotalResults": 2
+      },
+      {
+        "AfterBytes": 20458413380,
+        "BeforeBytes": 30702679163,
+        "CompType": 2,
+        "TotalResults": 5
+      },
+      {
+        "AfterBytes": 14401627318,
+        "BeforeBytes": 25805553779,
+        "CompType": 3,
+        "TotalResults": 6
+      }
+    ],
+    "Confidence": 1,
+    "FolderName": "Dragon Age Ultimate Edition",
+    "GameName": "Dragon Age: Origins - Ultimate Edition",
+    "PoorlyCompressedExtensions": {
+      ".GIF": 380,
+      ".INI": 20,
+      ".JPG": 361,
+      ".PDI": 20,
+      ".bik": 1143,
+      ".cab": 1674,
+      ".css": 700,
+      ".cur": 1400,
+      ".ews": 20,
+      ".gif": 8680,
+      ".ini": 457,
+      ".jar": 15,
+      ".jpg": 3457,
+      ".lng": 40,
+      ".log": 199,
+      ".mp3": 252,
+      ".stp": 20,
+      ".syn": 20,
+      ".vdf": 20,
+      ".wav": 15,
+      ".wma": 20
+    },
+    "SteamID": 47810,
+    "TotalFiles": 20
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 8352830977,
+        "BeforeBytes": 8414802485,
+        "CompType": 2,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 8319401135,
+        "BeforeBytes": 8414802485,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Need for Speed Hot Pursuit",
+    "GameName": "Need for Speed: Hot Pursuit",
+    "PoorlyCompressedExtensions": {
+      ".BIN": 760,
+      ".BNDL": 3614,
+      ".BUNDLE": 2,
+      ".GIF": 38,
+      ".INI": 2,
+      ".JPG": 36,
+      ".SPS": 32830,
+      ".VP6": 162,
+      ".cab": 288,
+      ".css": 70,
+      ".ews": 2,
+      ".gif": 868,
+      ".jar": 1,
+      ".jpg": 268,
+      ".lng": 4,
+      ".log": 22,
+      ".pdf": 26,
+      ".stp": 2,
+      ".syn": 2,
+      ".vdf": 2
+    },
+    "SteamID": 47870,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 32228692599,
+        "BeforeBytes": 34380703406,
+        "CompType": 0,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 16983591649,
+        "BeforeBytes": 18897723378,
+        "CompType": 2,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 20056324100,
+        "BeforeBytes": 22879682909,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "The Sims 3",
+    "GameName": "The Sims\u2122 3",
+    "PoorlyCompressedExtensions": {
+      ".GIF": 57,
+      ".JPG": 54,
+      ".cab": 11,
+      ".cfg": 201,
+      ".config": 3,
+      ".data": 15,
+      ".ews": 3,
+      ".gif": 1305,
+      ".hlsl": 1,
+      ".jar": 2,
+      ".jpg": 456,
+      ".lng": 6,
+      ".log": 33,
+      ".mp3": 21,
+      ".objectCache": 12,
+      ".png": 47,
+      ".reg": 2,
+      ".rtp": 3,
+      ".stp": 3,
+      ".syn": 3
+    },
+    "SteamID": 47890,
+    "TotalFiles": 3
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 7711224323,
+        "BeforeBytes": 7864623513,
+        "CompType": 3,
+        "TotalResults": 2
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Need For Speed Shift 2",
+    "GameName": "Shift 2 Unleashed",
+    "PoorlyCompressedExtensions": {
+      ".GIF": 38,
+      ".JPG": 36,
+      ".bff": 2972,
+      ".bik": 148,
+      ".bin": 4,
+      ".bml": 2,
+      ".bmt": 8,
+      ".cab": 288,
+      ".css": 70,
+      ".ews": 2,
+      ".fsb": 38,
+      ".gif": 868,
+      ".jpg": 268,
+      ".lng": 4,
+      ".log": 24,
+      ".stp": 2,
+      ".sub": 84,
+      ".syn": 2,
+      ".vdf": 2
+    },
+    "SteamID": 47920,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 93270456,
+        "BeforeBytes": 103683746,
+        "CompType": 2,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 91309426,
+        "BeforeBytes": 103683746,
+        "CompType": 3,
+        "TotalResults": 3
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Limbo",
+    "GameName": "LIMBO",
+    "PoorlyCompressedExtensions": {
+      ".cab": 24,
+      ".ogg": 52,
+      ".png": 68,
+      ".txt": 4,
+      ".vdf": 4
+    },
+    "SteamID": 48000,
+    "TotalFiles": 4
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 36691472,
+        "BeforeBytes": 40782510,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Voodoo Dice",
+    "GameName": "Voodoo Dice",
+    "PoorlyCompressedExtensions": {
+      ".cfg": 1,
+      ".lnk": 1,
+      ".stk": 2
+    },
+    "SteamID": 48150,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 10605144607,
+        "BeforeBytes": 11123238497,
+        "CompType": 1,
+        "TotalResults": 3
+      },
+      {
+        "AfterBytes": 10220261090,
+        "BeforeBytes": 10987864920,
+        "CompType": 2,
+        "TotalResults": 3
+      },
+      {
+        "AfterBytes": 8989172478,
+        "BeforeBytes": 9999344455,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Assassins Creed Brotherhood",
+    "GameName": "Assassin's Creed Brotherhood",
+    "PoorlyCompressedExtensions": {
       ".bik": 147,
       ".cab": 1078,
-      ".mp3": 88,
-      ".mov": 8,
       ".dat": 7,
       ".jpg": 63,
       ".lang": 7,
-      ".yml": 7,
-      ".png": 14,
-      ".xml": 7,
       ".lnk": 7,
-      ".vdf": 8
-    }
+      ".mov": 8,
+      ".mp3": 88,
+      ".pdf": 92,
+      ".png": 14,
+      ".vdf": 8,
+      ".xml": 7,
+      ".yml": 7
+    },
+    "SteamID": 48190,
+    "TotalFiles": 7
   },
   {
-    "SteamID": 48210,
-    "GameName": "The Settlers 7: Paths to a Kingdom - Gold Edition",
-    "FolderName": "Settlers 7 Gold",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 1,
-        "BeforeBytes": 6136472907,
         "AfterBytes": 6096730775,
+        "BeforeBytes": 6136472907,
+        "CompType": 1,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "Settlers 7 Gold",
+    "GameName": "The Settlers 7: Paths to a Kingdom - Gold Edition",
+    "PoorlyCompressedExtensions": {
+      ".bba": 11,
+      ".bik": 1,
+      ".cab": 137,
+      ".ini": 1,
+      ".manifest": 1,
+      ".pdf": 8,
+      ".txt": 1,
+      ".vdf": 1
+    },
+    "SteamID": 48210,
+    "TotalFiles": 1
   },
   {
-    "SteamID": 48240,
-    "GameName": "Anno 2070",
-    "FolderName": "Anno 2070",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 2,
-        "BeforeBytes": 4269802598,
         "AfterBytes": 3652008383,
+        "BeforeBytes": 4269802598,
+        "CompType": 2,
         "TotalResults": 1
       },
       {
+        "AfterBytes": 4202631693,
+        "BeforeBytes": 5039246513,
         "CompType": 3,
-        "BeforeBytes": 5028373721,
-        "AfterBytes": 4191730189,
-        "TotalResults": 2
+        "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "Anno 2070",
+    "GameName": "Anno 2070",
+    "PoorlyCompressedExtensions": {
+      ".bat": 4,
+      ".cab": 308,
+      ".ini": 16,
+      ".mp3": 51,
+      ".pdf": 9,
+      ".png": 2,
+      ".vdf": 2,
+      ".yml": 2
+    },
+    "SteamID": 48240,
+    "TotalFiles": 2
   },
   {
-    "SteamID": 48700,
-    "GameName": "Mount & Blade: Warband",
-    "FolderName": "MountBlade Warband",
-    "Confidence": 2,
     "CompressionResults": [
       {
-        "CompType": 0,
-        "BeforeBytes": 5596975305,
         "AfterBytes": 3822534031,
+        "BeforeBytes": 5596975305,
+        "CompType": 0,
         "TotalResults": 4
       },
       {
-        "CompType": 1,
-        "BeforeBytes": 7367368355,
         "AfterBytes": 4759016961,
+        "BeforeBytes": 7367368355,
+        "CompType": 1,
         "TotalResults": 3
       },
       {
-        "CompType": 2,
-        "BeforeBytes": 4706882243,
         "AfterBytes": 3190168235,
+        "BeforeBytes": 4706882243,
+        "CompType": 2,
         "TotalResults": 5
       },
       {
-        "CompType": 3,
-        "BeforeBytes": 3546527744,
         "AfterBytes": 2239111483,
+        "BeforeBytes": 3546527744,
+        "CompType": 3,
         "TotalResults": 4
       }
     ],
-    "PoorlyCompressedExtensions": {
-      ".pp": 50,
-      ".cab": 96,
-      ".ogg": 12740,
-      ".vdf": 17,
-      ".mp3": 606,
-      ".bik": 17,
-      ".h": 19
-    }
-  },
-  {
-    "SteamID": 48720,
-    "GameName": "Mount & Blade: With Fire and Sword",
-    "FolderName": "Mount & Blade With Fire and Sword",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 1375562657,
-        "AfterBytes": 1002283239,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 1375562657,
-        "AfterBytes": 898154708,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 48800,
-    "GameName": "Ship Simulator Extremes",
-    "FolderName": "Ship Simulator Extremes",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 3413243705,
-        "AfterBytes": 2023688886,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 3465412182,
-        "AfterBytes": 1773261270,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 48950,
-    "GameName": "Greed Corp",
-    "FolderName": "Greed Corp",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 625703576,
-        "AfterBytes": 378633569,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 49320,
-    "GameName": "Woody Two-Legs Attack of the Zombie Pirates",
-    "FolderName": "Woody Two-Legs Halloween Special",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 461119088,
-        "AfterBytes": 314774883,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 49470,
-    "GameName": "Magic: The Gathering \u2014 Duels of the Planeswalkers 2012",
-    "FolderName": "Magic the Gathering DotP 2012",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 860790275,
-        "AfterBytes": 849958712,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 49520,
-    "GameName": "Borderlands 2",
-    "FolderName": "Borderlands 2",
     "Confidence": 2,
+    "FolderName": "MountBlade Warband",
+    "GameName": "Mount & Blade: Warband",
+    "PoorlyCompressedExtensions": {
+      ".bik": 17,
+      ".cab": 96,
+      ".h": 19,
+      ".mp3": 606,
+      ".ogg": 12740,
+      ".pp": 50,
+      ".vdf": 17
+    },
+    "SteamID": 48700,
+    "TotalFiles": 16
+  },
+  {
     "CompressionResults": [
       {
-        "CompType": 0,
-        "BeforeBytes": 18753735262,
+        "AfterBytes": 1002283239,
+        "BeforeBytes": 1375562657,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 898154708,
+        "BeforeBytes": 1375562657,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Mount & Blade With Fire and Sword",
+    "GameName": "Mount & Blade: With Fire and Sword",
+    "PoorlyCompressedExtensions": {
+      ".OGG": 2,
+      ".bik": 4,
+      ".cab": 10,
+      ".h": 2,
+      ".ogg": 1032,
+      ".pp": 6,
+      ".vdf": 2
+    },
+    "SteamID": 48720,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 2023688886,
+        "BeforeBytes": 3413243705,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1773261270,
+        "BeforeBytes": 3465412182,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Ship Simulator Extremes",
+    "GameName": "Ship Simulator Extremes",
+    "PoorlyCompressedExtensions": {
+      "": 4,
+      ".aim": 99,
+      ".bdg": 131,
+      ".cab": 226,
+      ".cam": 125,
+      ".cfg": 2,
+      ".dai": 135,
+      ".de": 12,
+      ".dpl": 61,
+      ".flg": 19,
+      ".font": 26,
+      ".ini": 1007,
+      ".lua": 2,
+      ".ogg": 38,
+      ".png": 1082,
+      ".sem": 90,
+      ".sgm": 91,
+      ".smc": 658,
+      ".snd": 111,
+      ".stl": 42,
+      ".vdf": 2,
+      ".wk2": 73,
+      ".wmv": 14
+    },
+    "SteamID": 48800,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 378633569,
+        "BeforeBytes": 625703576,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Greed Corp",
+    "GameName": "Greed Corp",
+    "PoorlyCompressedExtensions": {
+      ".bik": 1,
+      ".cab": 157,
+      ".config": 1,
+      ".manifest": 2,
+      ".txt": 1,
+      ".vdf": 1
+    },
+    "SteamID": 48950,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 314774883,
+        "BeforeBytes": 461119088,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Woody Two-Legs Halloween Special",
+    "GameName": "Woody Two-Legs Attack of the Zombie Pirates",
+    "PoorlyCompressedExtensions": {
+      ".b3d": 3,
+      ".cab": 157,
+      ".dhm": 4,
+      ".dhp": 37,
+      ".dhu": 35,
+      ".eic": 53,
+      ".ogf": 2,
+      ".ogg": 15,
+      ".vdf": 1,
+      ".wmv": 3
+    },
+    "SteamID": 49320,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 849958712,
+        "BeforeBytes": 860790275,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Magic the Gathering DotP 2012",
+    "GameName": "Magic: The Gathering \u2014 Duels of the Planeswalkers 2012",
+    "PoorlyCompressedExtensions": {
+      ".OGG": 19,
+      ".cab": 154,
+      ".jpg": 18,
+      ".mp3": 15,
+      ".pdf": 1,
+      ".txt": 1,
+      ".vdf": 1,
+      ".wad": 8,
+      ".wmv": 9
+    },
+    "SteamID": 49470,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
         "AfterBytes": 17945845743,
+        "BeforeBytes": 18753735262,
+        "CompType": 0,
         "TotalResults": 8
       },
       {
+        "AfterBytes": 17293349006,
+        "BeforeBytes": 18425027800,
         "CompType": 1,
-        "BeforeBytes": 18582957174,
-        "AfterBytes": 17443135286,
-        "TotalResults": 17
+        "TotalResults": 15
       },
       {
+        "AfterBytes": 17056499064,
+        "BeforeBytes": 18320521612,
         "CompType": 2,
-        "BeforeBytes": 19069409139,
-        "AfterBytes": 17779441081,
-        "TotalResults": 22
+        "TotalResults": 20
       },
       {
+        "AfterBytes": 16783872233,
+        "BeforeBytes": 18545798405,
         "CompType": 3,
-        "BeforeBytes": 18426084057,
-        "AfterBytes": 16671431233,
-        "TotalResults": 21
+        "TotalResults": 19
       }
     ],
-    "PoorlyCompressedExtensions": {
-      ".pck": 4248,
-      ".uncompressed_size": 750,
-      ".png": 8455,
-      ".bik": 18211,
-      ".mp3": 340,
-      ".cab": 544,
-      ".config": 69,
-      ".vdf": 68
-    }
-  },
-  {
-    "SteamID": 49540,
-    "GameName": "Aliens: Colonial Marines",
-    "FolderName": "Aliens Colonial Marines",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 15601778632,
-        "AfterBytes": 13778877511,
-        "TotalResults": 3
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 49600,
-    "GameName": "Beat Hazard",
-    "FolderName": "Beat Hazard",
     "Confidence": 2,
+    "FolderName": "Borderlands 2",
+    "GameName": "Borderlands 2",
+    "PoorlyCompressedExtensions": {
+      ".bik": 16582,
+      ".cab": 496,
+      ".config": 63,
+      ".mp3": 310,
+      ".pck": 3880,
+      ".png": 7711,
+      ".uncompressed_size": 684,
+      ".vdf": 62
+    },
+    "SteamID": 49520,
+    "TotalFiles": 62
+  },
+  {
     "CompressionResults": [
       {
-        "CompType": 0,
-        "BeforeBytes": 258093042,
-        "AfterBytes": 255369362,
-        "TotalResults": 5
-      },
+        "AfterBytes": 13530490484,
+        "BeforeBytes": 15225942730,
+        "CompType": 3,
+        "TotalResults": 2
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Aliens Colonial Marines",
+    "GameName": "Aliens: Colonial Marines",
+    "PoorlyCompressedExtensions": {
+      ".bik": 58,
+      ".pck": 100,
+      ".txt": 43,
+      ".uncompressed_size": 34,
+      ".vdf": 2,
+      ".xml": 2
+    },
+    "SteamID": 49540,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
       {
-        "CompType": 1,
+        "AfterBytes": 255362511,
         "BeforeBytes": 258086191,
-        "AfterBytes": 255120847,
+        "CompType": 0,
         "TotalResults": 2
       },
       {
-        "CompType": 2,
-        "BeforeBytes": 369252677,
+        "AfterBytes": 255120847,
+        "BeforeBytes": 258086191,
+        "CompType": 1,
+        "TotalResults": 2
+      },
+      {
         "AfterBytes": 366177269,
+        "BeforeBytes": 369252677,
+        "CompType": 2,
         "TotalResults": 3
       },
       {
+        "AfterBytes": 587861384,
+        "BeforeBytes": 591585649,
         "CompType": 3,
-        "BeforeBytes": 524885757,
-        "AfterBytes": 521150893,
-        "TotalResults": 5
+        "TotalResults": 4
       }
     ],
+    "Confidence": 0,
+    "FolderName": "Beat Hazard",
+    "GameName": "Beat Hazard",
     "PoorlyCompressedExtensions": {
-      ".res": 15,
-      ".dat": 65,
-      ".png": 45,
-      ".txt": 75
-    }
+      ".dat": 49,
+      ".png": 33,
+      ".res": 11,
+      ".txt": 55
+    },
+    "SteamID": 49600,
+    "TotalFiles": 11
   },
   {
-    "SteamID": 49800,
-    "GameName": "Flight of the Icarus",
-    "FolderName": "Guns of Icarus",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 3,
-        "BeforeBytes": 113235951,
         "AfterBytes": 44508977,
+        "BeforeBytes": 113235951,
+        "CompType": 3,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "Guns of Icarus",
+    "GameName": "Flight of the Icarus",
+    "PoorlyCompressedExtensions": {
+      ".browser": 1,
+      ".map": 1,
+      ".txt": 1
+    },
+    "SteamID": 49800,
+    "TotalFiles": 1
   },
   {
-    "SteamID": 49810,
-    "GameName": "CreaVures",
-    "FolderName": "creavures",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 3,
-        "BeforeBytes": 440188153,
         "AfterBytes": 230155252,
-        "TotalResults": 2
+        "BeforeBytes": 440188153,
+        "CompType": 3,
+        "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "creavures",
+    "GameName": "CreaVures",
+    "PoorlyCompressedExtensions": {
+      ".browser": 1,
+      ".cab": 154,
+      ".map": 1,
+      ".streamingResourceImage": 2,
+      ".txt": 1,
+      ".vdf": 1
+    },
+    "SteamID": 49810,
+    "TotalFiles": 1
   },
   {
-    "SteamID": 49900,
-    "GameName": "Plain Sight",
-    "FolderName": "Plain Sight",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 3,
-        "BeforeBytes": 213266146,
         "AfterBytes": 180622930,
+        "BeforeBytes": 213266146,
+        "CompType": 3,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "Plain Sight",
+    "GameName": "Plain Sight",
+    "PoorlyCompressedExtensions": {
+      ".application": 1,
+      ".bmp": 1,
+      ".character": 1,
+      ".cmd": 1,
+      ".cs": 2,
+      ".object": 2,
+      ".vdf": 1,
+      ".xgs": 1,
+      ".xnb": 481
+    },
+    "SteamID": 49900,
+    "TotalFiles": 1
   },
   {
-    "SteamID": 50130,
-    "GameName": "Mafia II (Classic)",
-    "FolderName": "Mafia II",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 0,
-        "BeforeBytes": 7880680522,
         "AfterBytes": 7746517860,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 1,
-        "BeforeBytes": 8404976079,
-        "AfterBytes": 8230685533,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 8607945997,
-        "AfterBytes": 8280362208,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 50300,
-    "GameName": "Spec Ops: The Line",
-    "FolderName": "SpecOps_TheLine",
-    "Confidence": 1,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 7733813796,
-        "AfterBytes": 7222084906,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 7569914992,
-        "AfterBytes": 7006063174,
-        "TotalResults": 2
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 7576255018,
-        "AfterBytes": 6812629461,
-        "TotalResults": 6
-      }
-    ],
-    "PoorlyCompressedExtensions": {
-      ".bik": 762,
-      ".ini": 1017,
-      ".fev": 27,
-      ".css": 27,
-      ".cab": 1386,
-      ".url": 9,
-      ".vdf": 9
-    }
-  },
-  {
-    "SteamID": 50510,
-    "GameName": "Burn Zombie Burn",
-    "FolderName": "Burn Zombie Burn!",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 663165630,
-        "AfterBytes": 476578002,
-        "TotalResults": 2
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 50620,
-    "GameName": "Darksiders",
-    "FolderName": "Darksiders",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
+        "BeforeBytes": 7880680522,
         "CompType": 0,
-        "BeforeBytes": 10488669694,
-        "AfterBytes": 10373562297,
         "TotalResults": 1
       },
       {
+        "AfterBytes": 8230685533,
+        "BeforeBytes": 8404976079,
+        "CompType": 1,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 8280362208,
+        "BeforeBytes": 8607945997,
         "CompType": 3,
-        "BeforeBytes": 10586010462,
-        "AfterBytes": 10390933866,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "Mafia II",
+    "GameName": "Mafia II (Classic)",
+    "PoorlyCompressedExtensions": {
+      ".acml": 108,
+      ".aea": 222,
+      ".bik": 69,
+      ".cab": 462,
+      ".dat": 19,
+      ".fsb": 1021,
+      ".iofx": 222,
+      ".ios": 222,
+      ".mp3": 48,
+      ".msi": 2,
+      ".patch": 384,
+      ".sds": 8954,
+      ".vdd": 9,
+      ".vdf": 3,
+      ".wmv": 3,
+      ".xml": 216
+    },
+    "SteamID": 50130,
+    "TotalFiles": 3
   },
   {
-    "SteamID": 50820,
-    "GameName": "Max and the Magic Marker",
-    "FolderName": "Max and the Magic Marker",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 3,
-        "BeforeBytes": 289354156,
-        "AfterBytes": 90704749,
+        "AfterBytes": 7222084906,
+        "BeforeBytes": 7733813796,
+        "CompType": 1,
         "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 55000,
-    "GameName": "Flotilla",
-    "FolderName": "Flotilla",
-    "Confidence": 0,
-    "CompressionResults": [
+      },
       {
-        "CompType": 3,
-        "BeforeBytes": 46591606,
-        "AfterBytes": 37152295,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 55040,
-    "GameName": "Atom Zombie Smasher ",
-    "FolderName": "atomzombiesmasher",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 26780107,
-        "AfterBytes": 24541106,
+        "AfterBytes": 7006063174,
+        "BeforeBytes": 7569914992,
+        "CompType": 2,
         "TotalResults": 2
+      },
+      {
+        "AfterBytes": 6812629461,
+        "BeforeBytes": 7576255469,
+        "CompType": 3,
+        "TotalResults": 4
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "SpecOps_TheLine",
+    "GameName": "Spec Ops: The Line",
+    "PoorlyCompressedExtensions": {
+      ".bik": 594,
+      ".cab": 1078,
+      ".css": 21,
+      ".fev": 21,
+      ".ini": 789,
+      ".url": 7,
+      ".vdf": 7
+    },
+    "SteamID": 50300,
+    "TotalFiles": 7
   },
   {
-    "SteamID": 55100,
-    "GameName": "Homefront",
-    "FolderName": "HOMEFRONT",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 2,
-        "BeforeBytes": 12850938007,
-        "AfterBytes": 10605175679,
+        "AfterBytes": 476578002,
+        "BeforeBytes": 663165630,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Burn Zombie Burn!",
+    "GameName": "Burn Zombie Burn",
+    "PoorlyCompressedExtensions": {
+      ".PNG": 1,
+      ".bmfc": 1,
+      ".cgf": 16,
+      ".cgfpo": 17,
+      ".cgv": 11,
+      ".cgvpo": 12,
+      ".gz": 244,
+      ".manifest": 1,
+      ".png": 2,
+      ".seq": 3,
+      ".txt": 105,
+      ".vdf": 1
+    },
+    "SteamID": 50510,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 10373562297,
+        "BeforeBytes": 10488669694,
+        "CompType": 0,
         "TotalResults": 1
       },
       {
+        "AfterBytes": 10390933866,
+        "BeforeBytes": 10586010462,
         "CompType": 3,
-        "BeforeBytes": 12850935431,
-        "AfterBytes": 10184204323,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "Darksiders",
+    "GameName": "Darksiders",
+    "PoorlyCompressedExtensions": {
+      ".exe": 8,
+      ".oppc": 1318,
+      ".vdf": 2,
+      ".wmv": 126
+    },
+    "SteamID": 50620,
+    "TotalFiles": 2
   },
   {
-    "SteamID": 55110,
-    "GameName": "Red Faction: Armageddon",
-    "FolderName": "red faction armageddon",
-    "Confidence": 1,
     "CompressionResults": [
       {
+        "AfterBytes": 90704749,
+        "BeforeBytes": 289354156,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Max and the Magic Marker",
+    "GameName": "Max and the Magic Marker",
+    "PoorlyCompressedExtensions": {
+      ".txt": 1,
+      ".url": 1
+    },
+    "SteamID": 50820,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 37152295,
+        "BeforeBytes": 46591606,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Flotilla",
+    "GameName": "Flotilla",
+    "PoorlyCompressedExtensions": {
+      ".ogv": 1,
+      ".png": 1,
+      ".txt": 1,
+      ".xgs": 1,
+      ".xsb": 1
+    },
+    "SteamID": 55000,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 24541106,
+        "BeforeBytes": 26780107,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "atomzombiesmasher",
+    "GameName": "Atom Zombie Smasher ",
+    "PoorlyCompressedExtensions": {
+      ".jpg": 1,
+      ".ogg": 206,
+      ".png": 14,
+      ".sounds": 1,
+      ".zep": 31
+    },
+    "SteamID": 55040,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 10605175679,
+        "BeforeBytes": 12850938007,
         "CompType": 2,
-        "BeforeBytes": 8935778673,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 10184204323,
+        "BeforeBytes": 12850935431,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "HOMEFRONT",
+    "GameName": "Homefront",
+    "PoorlyCompressedExtensions": {
+      ".bik": 36,
+      ".cab": 308,
+      ".vdf": 2
+    },
+    "SteamID": 55100,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
         "AfterBytes": 8796721056,
+        "BeforeBytes": 8935778673,
+        "CompType": 2,
         "TotalResults": 6
       },
       {
-        "CompType": 3,
-        "BeforeBytes": 8207653828,
         "AfterBytes": 8022635816,
+        "BeforeBytes": 8207653828,
+        "CompType": 3,
         "TotalResults": 2
       }
     ],
+    "Confidence": 2,
+    "FolderName": "red faction armageddon",
+    "GameName": "Red Faction: Armageddon",
     "PoorlyCompressedExtensions": {
-      ".vpp_pc": 724,
       ".bik": 536,
       ".cab": 1232,
       ".dat": 8,
-      ".vdf": 8
-    }
+      ".vdf": 8,
+      ".vpp_pc": 724
+    },
+    "SteamID": 55110,
+    "TotalFiles": 8
   },
   {
-    "SteamID": 55140,
-    "GameName": "MX vs. ATV Reflex",
-    "FolderName": "MX vs ATV Reflex",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 1,
-        "BeforeBytes": 6803308559,
         "AfterBytes": 6790464532,
+        "BeforeBytes": 6803308559,
+        "CompType": 1,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "MX vs ATV Reflex",
+    "GameName": "MX vs. ATV Reflex",
+    "PoorlyCompressedExtensions": {
+      ".bik": 19,
+      ".bxml": 29,
+      ".cab": 9,
+      ".cfg": 1,
+      ".level": 57,
+      ".package": 194,
+      ".scene": 58,
+      ".vdf": 1
+    },
+    "SteamID": 55140,
+    "TotalFiles": 1
   },
   {
-    "SteamID": 55150,
-    "GameName": "Warhammer 40,000: Space Marine - Anniversary Edition",
-    "FolderName": "Warhammer 40,000 Space Marine",
-    "Confidence": 1,
     "CompressionResults": [
       {
-        "CompType": 1,
-        "BeforeBytes": 10805827427,
         "AfterBytes": 10721843609,
+        "BeforeBytes": 10805827427,
+        "CompType": 1,
         "TotalResults": 3
       },
       {
-        "CompType": 2,
-        "BeforeBytes": 11102503872,
         "AfterBytes": 10999604073,
+        "BeforeBytes": 11102503872,
+        "CompType": 2,
         "TotalResults": 5
       },
       {
-        "CompType": 3,
-        "BeforeBytes": 9519949414,
         "AfterBytes": 9438899375,
+        "BeforeBytes": 9519949414,
+        "CompType": 3,
         "TotalResults": 1
       }
     ],
+    "Confidence": 2,
+    "FolderName": "Warhammer 40,000 Space Marine",
+    "GameName": "Warhammer 40,000: Space Marine - Anniversary Edition",
     "PoorlyCompressedExtensions": {
-      ".dat": 18,
-      ".zbin": 18,
       ".cab": 1232,
       ".cfg": 9,
-      ".usm": 45,
-      ".pc": 9,
       ".chk": 18,
-      ".wmv": 6,
-      ".sig": 18,
-      ".lua": 81,
-      ".pck": 2070,
-      ".mov": 30,
+      ".dat": 18,
       ".db": 6,
-      ".vdf": 9,
+      ".layer": 117,
+      ".lua": 81,
+      ".mov": 30,
       ".oppc": 24624,
+      ".pc": 9,
+      ".pck": 2070,
       ".region": 72,
-      ".layer": 117
-    }
+      ".sig": 18,
+      ".usm": 45,
+      ".vdf": 9,
+      ".wmv": 6,
+      ".zbin": 18
+    },
+    "SteamID": 55150,
+    "TotalFiles": 9
   },
   {
-    "SteamID": 55230,
-    "GameName": "Saints Row: The Third",
-    "FolderName": "Saints Row the Third",
-    "Confidence": 2,
     "CompressionResults": [
       {
-        "CompType": 0,
-        "BeforeBytes": 9991378960,
         "AfterBytes": 9440790914,
+        "BeforeBytes": 9991378960,
+        "CompType": 0,
         "TotalResults": 1
       },
       {
-        "CompType": 1,
-        "BeforeBytes": 9991406246,
         "AfterBytes": 9394377156,
+        "BeforeBytes": 9991406246,
+        "CompType": 1,
         "TotalResults": 2
       },
       {
-        "CompType": 2,
-        "BeforeBytes": 9990851996,
         "AfterBytes": 9351985642,
+        "BeforeBytes": 9990851996,
+        "CompType": 2,
         "TotalResults": 6
       },
       {
-        "CompType": 3,
-        "BeforeBytes": 9991378704,
         "AfterBytes": 9249757137,
+        "BeforeBytes": 9991378704,
+        "CompType": 3,
         "TotalResults": 2
       }
     ],
+    "Confidence": 2,
+    "FolderName": "Saints Row the Third",
+    "GameName": "Saints Row: The Third",
     "PoorlyCompressedExtensions": {
       ".bik": 187,
       ".cab": 1540,
       ".dat": 11,
-      ".vdf": 11,
       ".ini": 11,
+      ".srtt_audiodump": 11,
       ".srtt_framedump": 11,
-      ".srtt_audiodump": 11
-    }
+      ".vdf": 11
+    },
+    "SteamID": 55230,
+    "TotalFiles": 11
   },
   {
-    "SteamID": 55410,
-    "GameName": "Warhammer 40,000: Space Marine Demo",
-    "FolderName": "Warhammer 40,000 Space Marine Demo",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 2,
-        "BeforeBytes": 9147346059,
         "AfterBytes": 9087919988,
+        "BeforeBytes": 9147346059,
+        "CompType": 2,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "Warhammer 40,000 Space Marine Demo",
+    "GameName": "Warhammer 40,000: Space Marine Demo",
+    "PoorlyCompressedExtensions": {
+      ".7z": 1,
+      ".cfg": 1,
+      ".chk": 2,
+      ".ini": 3,
+      ".layer": 13,
+      ".lua": 9,
+      ".oppc": 2741,
+      ".pck": 215,
+      ".region": 8,
+      ".sig": 2,
+      ".usm": 5,
+      ".zbin": 2
+    },
+    "SteamID": 55410,
+    "TotalFiles": 1
   },
   {
-    "SteamID": 56400,
-    "GameName": "Warhammer 40,000: Dawn of War II - Retribution",
-    "FolderName": "Dawn of War II - Retribution",
-    "Confidence": 0,
     "CompressionResults": [
       {
-        "CompType": 2,
-        "BeforeBytes": 6318954308,
         "AfterBytes": 6223607376,
+        "BeforeBytes": 6318954308,
+        "CompType": 2,
         "TotalResults": 2
       },
       {
-        "CompType": 3,
-        "BeforeBytes": 5302661971,
         "AfterBytes": 5192655673,
+        "BeforeBytes": 5302661971,
+        "CompType": 3,
         "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 57000,
-    "GameName": "NyxQuest",
-    "FolderName": "NyxQuest Kindred Spirits",
     "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 140225152,
-        "AfterBytes": 135802880,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 57200,
-    "GameName": "Puzzle Dimension",
-    "FolderName": "Puzzle Dimension",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 283767800,
-        "AfterBytes": 248594895,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {}
-  },
-  {
-    "SteamID": 57300,
-    "GameName": "Amnesia: The Dark Descent",
-    "FolderName": "Amnesia The Dark Descent",
-    "Confidence": 2,
-    "CompressionResults": [
-      {
-        "CompType": 0,
-        "BeforeBytes": 2537626640,
-        "AfterBytes": 1599595139,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 2,
-        "BeforeBytes": 3639084174,
-        "AfterBytes": 1908439352,
-        "TotalResults": 8
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 2512422848,
-        "AfterBytes": 1332638022,
-        "TotalResults": 8
-      }
-    ],
+    "FolderName": "Dawn of War II - Retribution",
+    "GameName": "Warhammer 40,000: Dawn of War II - Retribution",
     "PoorlyCompressedExtensions": {
-      ".snt": 16659,
-      ".png": 16,
-      ".dat": 17,
-      ".flash": 629,
-      ".rar": 17,
-      ".ho": 36,
-      ".ogg": 49194,
-      ".sps": 34,
-      ".txt": 32,
-      ".pdf": 17,
-      ".mat": 14548,
-      ".rope": 68,
-      ".comment": 1377
-    }
+      ".ai": 3,
+      ".atmospherepreset": 3,
+      ".avi": 213,
+      ".bat": 4,
+      ".bin": 1,
+      ".cab": 414,
+      ".info": 3,
+      ".ini": 12,
+      ".layers": 3,
+      ".lua": 218,
+      ".module": 4,
+      ".scar": 3,
+      ".scenariomarker": 3,
+      ".sga": 150,
+      ".sga_design": 3,
+      ".txt": 4
+    },
+    "SteamID": 56400,
+    "TotalFiles": 3
   },
   {
-    "SteamID": 57640,
-    "GameName": "Broken Sword 1 - Shadow of the Templars: Director's Cut",
-    "FolderName": "Broken Sword Shadow of the Templars",
-    "Confidence": 0,
     "CompressionResults": [
       {
+        "AfterBytes": 135802880,
+        "BeforeBytes": 140225152,
         "CompType": 3,
-        "BeforeBytes": 2606078765,
-        "AfterBytes": 2264115930,
-        "TotalResults": 3
+        "TotalResults": 1
       }
     ],
-    "PoorlyCompressedExtensions": {}
+    "Confidence": 0,
+    "FolderName": "NyxQuest Kindred Spirits",
+    "GameName": "NyxQuest",
+    "PoorlyCompressedExtensions": {
+      ".pak": 3
+    },
+    "SteamID": 57000,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 248594895,
+        "BeforeBytes": 283767800,
+        "CompType": 3,
+        "TotalResults": 1
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Puzzle Dimension",
+    "GameName": "Puzzle Dimension",
+    "PoorlyCompressedExtensions": {
+      ".cab": 79,
+      ".vdf": 1
+    },
+    "SteamID": 57200,
+    "TotalFiles": 1
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1599595139,
+        "BeforeBytes": 2537626640,
+        "CompType": 0,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1908439352,
+        "BeforeBytes": 3639084174,
+        "CompType": 2,
+        "TotalResults": 8
+      },
+      {
+        "AfterBytes": 1331247960,
+        "BeforeBytes": 2508822306,
+        "CompType": 3,
+        "TotalResults": 7
+      }
+    ],
+    "Confidence": 1,
+    "FolderName": "Amnesia The Dark Descent",
+    "GameName": "Amnesia: The Dark Descent",
+    "PoorlyCompressedExtensions": {
+      ".comment": 1296,
+      ".dat": 16,
+      ".flash": 592,
+      ".ho": 34,
+      ".mat": 13688,
+      ".ogg": 46305,
+      ".pdf": 16,
+      ".png": 15,
+      ".rar": 16,
+      ".rope": 64,
+      ".snt": 15680,
+      ".sps": 32,
+      ".txt": 30
+    },
+    "SteamID": 57300,
+    "TotalFiles": 16
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 2243856046,
+        "BeforeBytes": 2584241527,
+        "CompType": 3,
+        "TotalResults": 2
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Broken Sword Shadow of the Templars",
+    "GameName": "Broken Sword 1 - Shadow of the Templars: Director's Cut",
+    "PoorlyCompressedExtensions": {
+      ".RIF": 1,
+      ".SMK": 38,
+      ".bat": 2,
+      ".ico": 1,
+      ".ini": 4,
+      ".mp3": 22,
+      ".ogg": 386,
+      ".ogv": 92
+    },
+    "SteamID": 57640,
+    "TotalFiles": 2
+  },
+  {
+    "CompressionResults": [
+      {
+        "AfterBytes": 1426988750,
+        "BeforeBytes": 2037779969,
+        "CompType": 2,
+        "TotalResults": 1
+      },
+      {
+        "AfterBytes": 1312544932,
+        "BeforeBytes": 2029575632,
+        "CompType": 3,
+        "TotalResults": 2
+      }
+    ],
+    "Confidence": 0,
+    "FolderName": "Dungeons",
+    "GameName": "Dungeons",
+    "PoorlyCompressedExtensions": {
+      ".cab": 462,
+      ".cfg": 18,
+      ".exe": 18,
+      ".jpg": 15,
+      ".lua": 182,
+      ".png": 90,
+      ".program": 3,
+      ".py": 1,
+      ".vdf": 3,
+      ".wmv": 21,
+      ".xml": 137
+    },
+    "SteamID": 57650,
+    "TotalFiles": 3
   }
 ]
