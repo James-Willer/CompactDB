@@ -1,291 +1,269 @@
 [
   {
-    "CompressionResults": [
-      {
-        "AfterBytes": 13051699547,
-        "BeforeBytes": 13482452091,
-        "CompType": 0,
-        "TotalResults": 1
-      }
-    ],
-    "Confidence": 0,
-    "FolderName": "THE HOUSE OF THE DEAD 2 Remake Demo",
-    "GameName": "The House of The Dead 2 Remake Demo",
-    "PoorlyCompressedExtensions": {
-      ".browser": 3,
-      ".bundle": 1024,
-      ".info": 1,
-      ".map": 3,
-      ".resource": 1
-    },
-    "SteamID": 3481310,
-    "TotalFiles": 1
-  },
-  {
-    "CompressionResults": [
-      {
-        "AfterBytes": 29056745,
-        "BeforeBytes": 114187739,
-        "CompType": 3,
-        "TotalResults": 1
-      }
-    ],
-    "Confidence": 0,
-    "FolderName": "BongoCatDemo",
-    "GameName": "Bongo Cat Demo",
-    "PoorlyCompressedExtensions": {
-      ".browser": 3,
-      ".info": 1,
-      ".json": 2,
-      ".map": 3,
-      ".txt": 1
-    },
     "SteamID": 3487310,
-    "TotalFiles": 1
-  },
-  {
-    "CompressionResults": [
-      {
-        "AfterBytes": 10721428829,
-        "BeforeBytes": 14532575009,
-        "CompType": 1,
-        "TotalResults": 1
-      }
-    ],
+    "GameName": "Bongo Cat Demo",
+    "FolderName": "BongoCatDemo",
     "Confidence": 0,
-    "FolderName": "Shadow of the Road Playtest",
-    "GameName": "Shadow of the Road Playtest",
-    "PoorlyCompressedExtensions": {
-      ".config": 1,
-      ".info": 1,
-      ".resource": 7
-    },
-    "SteamID": 3498750,
-    "TotalFiles": 1
-  },
-  {
     "CompressionResults": [
       {
-        "AfterBytes": 353828798,
-        "BeforeBytes": 1647209919,
         "CompType": 3,
+        "BeforeBytes": 114187739,
+        "AfterBytes": 29056745,
         "TotalResults": 1
       }
     ],
-    "Confidence": 0,
-    "FolderName": "Teenage Mutant Ninja Turtles Tactical Takedown Demo",
-    "GameName": "Teenage Mutant Ninja Turtles: Tactical Takedown Demo",
     "PoorlyCompressedExtensions": {
+      ".map": 3,
+      ".browser": 3,
+      ".json": 2,
+      ".txt": 1,
+      ".info": 1
+    },
+    "TotalFiles": 1
+  },
+  {
+    "SteamID": 3498750,
+    "GameName": "Shadow of the Road Playtest",
+    "FolderName": "Shadow of the Road Playtest",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 1,
+        "BeforeBytes": 14532575009,
+        "AfterBytes": 10721428829,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".resource": 7,
+      ".config": 1,
+      ".info": 1
+    },
+    "TotalFiles": 1
+  },
+  {
+    "SteamID": 3501910,
+    "GameName": "Teenage Mutant Ninja Turtles: Tactical Takedown Demo",
+    "FolderName": "Teenage Mutant Ninja Turtles Tactical Takedown Demo",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 3,
+        "BeforeBytes": 1647209919,
+        "AfterBytes": 353828798,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".map": 3,
       ".browser": 3,
       ".info": 1,
-      ".map": 3,
       ".resource": 11
     },
-    "SteamID": 3501910,
     "TotalFiles": 1
   },
   {
+    "SteamID": 3513350,
+    "GameName": "Wuthering Waves",
+    "FolderName": "Wuthering Waves",
+    "Confidence": 0,
     "CompressionResults": [
       {
-        "AfterBytes": 47407482602,
-        "BeforeBytes": 49000682521,
         "CompType": 0,
+        "BeforeBytes": 49000682521,
+        "AfterBytes": 47407482602,
         "TotalResults": 1
       },
       {
-        "AfterBytes": 47291138280,
-        "BeforeBytes": 48857389032,
         "CompType": 1,
+        "BeforeBytes": 48857389032,
+        "AfterBytes": 47291138280,
         "TotalResults": 3
       },
       {
-        "AfterBytes": 46939993809,
-        "BeforeBytes": 48827068890,
         "CompType": 2,
+        "BeforeBytes": 48827068890,
+        "AfterBytes": 46939993809,
         "TotalResults": 1
       }
     ],
-    "Confidence": 0,
-    "FolderName": "Wuthering Waves",
-    "GameName": "Wuthering Waves",
     "PoorlyCompressedExtensions": {
-      "": 744,
-      ".bin": 18,
-      ".gz": 2,
-      ".info_1746177284_1882": 2,
-      ".pak": 598,
-      ".png": 955,
-      ".rc": 20,
-      ".sav": 4,
+      ".tps": 5,
       ".sig": 318,
-      ".tps": 5
+      ".bin": 18,
+      ".rc": 20,
+      ".png": 955,
+      "": 744,
+      ".sav": 4,
+      ".pak": 598,
+      ".gz": 2,
+      ".info_1746177284_1882": 2
     },
-    "SteamID": 3513350,
     "TotalFiles": 5
   },
   {
+    "SteamID": 3529590,
+    "GameName": "Among Us 3D Demo",
+    "FolderName": "Among Us 3D Demo",
+    "Confidence": 0,
     "CompressionResults": [
       {
-        "AfterBytes": 637507446,
-        "BeforeBytes": 2116301005,
         "CompType": 2,
+        "BeforeBytes": 2116301005,
+        "AfterBytes": 637507446,
         "TotalResults": 1
       }
     ],
-    "Confidence": 0,
-    "FolderName": "Among Us 3D Demo",
-    "GameName": "Among Us 3D Demo",
     "PoorlyCompressedExtensions": {
+      ".resource": 5,
       ".config": 1,
       ".info": 1,
-      ".resource": 5,
       ".txt": 1
     },
-    "SteamID": 3529590,
     "TotalFiles": 1
   },
   {
-    "CompressionResults": [
-      {
-        "AfterBytes": 107003904,
-        "BeforeBytes": 155413504,
-        "CompType": 1,
-        "TotalResults": 1
-      }
-    ],
-    "Confidence": 0,
-    "FolderName": "Age of War",
-    "GameName": "Age of War",
-    "PoorlyCompressedExtensions": {},
     "SteamID": 3566610,
-    "TotalFiles": 1
-  },
-  {
+    "GameName": "Age of War",
+    "FolderName": "Age of War",
+    "Confidence": 0,
     "CompressionResults": [
       {
-        "AfterBytes": 2178888930,
-        "BeforeBytes": 2343934373,
-        "CompType": 3,
+        "CompType": 1,
+        "BeforeBytes": 155413504,
+        "AfterBytes": 107003904,
         "TotalResults": 1
       }
     ],
-    "Confidence": 0,
-    "FolderName": "Wrap House Simulator Prologue",
-    "GameName": "Wrap House Simulator: Prologue",
-    "PoorlyCompressedExtensions": {
-      ".cur": 1,
-      ".mp4": 8,
-      ".pak": 1,
-      ".ucas": 2
-    },
-    "SteamID": 3582450,
-    "TotalFiles": 1
-  },
-  {
-    "CompressionResults": [
-      {
-        "AfterBytes": 757743968,
-        "BeforeBytes": 884720413,
-        "CompType": 3,
-        "TotalResults": 1
-      }
-    ],
-    "Confidence": 0,
-    "FolderName": "Three Sisters",
-    "GameName": "Three Sisters",
-    "PoorlyCompressedExtensions": {
-      ".css": 1,
-      ".png": 5,
-      ".png~": 101,
-      ".rpgmvo": 616,
-      ".rpgmvp": 2652,
-      ".webm": 6
-    },
-    "SteamID": 3584190,
-    "TotalFiles": 1
-  },
-  {
-    "CompressionResults": [
-      {
-        "AfterBytes": 383304757,
-        "BeforeBytes": 547147916,
-        "CompType": 0,
-        "TotalResults": 1
-      }
-    ],
-    "Confidence": 0,
-    "FolderName": "EDCo_Demo",
-    "GameName": "Easy Delivery Co. Demo",
-    "PoorlyCompressedExtensions": {
-      ".browser": 6,
-      ".icns": 1,
-      ".info": 2,
-      ".json": 4,
-      ".map": 6,
-      ".plist": 2,
-      ".resource": 8,
-      ".xcprivacy": 1
-    },
-    "SteamID": 3592280,
-    "TotalFiles": 1
-  },
-  {
-    "CompressionResults": [
-      {
-        "AfterBytes": 47304704,
-        "BeforeBytes": 89407088,
-        "CompType": 2,
-        "TotalResults": 1
-      }
-    ],
-    "Confidence": 0,
-    "FolderName": "waxweaver",
-    "GameName": "waxweaver",
     "PoorlyCompressedExtensions": {},
-    "SteamID": 3599070,
     "TotalFiles": 1
   },
   {
+    "SteamID": 3582450,
+    "GameName": "Wrap House Simulator: Prologue",
+    "FolderName": "Wrap House Simulator Prologue",
+    "Confidence": 0,
     "CompressionResults": [
       {
-        "AfterBytes": 36675449107,
-        "BeforeBytes": 42399988209,
-        "CompType": 2,
+        "CompType": 3,
+        "BeforeBytes": 2343934373,
+        "AfterBytes": 2178888930,
         "TotalResults": 1
       }
     ],
-    "Confidence": 0,
-    "FolderName": "Dune Awakening Beta",
-    "GameName": "Dune: Awakening Beta Weekend",
     "PoorlyCompressedExtensions": {
-      ".bat": 2,
-      ".bin": 2,
-      ".bk2": 24,
-      ".cfg": 1,
-      ".json": 2,
-      ".pem": 2,
-      ".txt": 5
-    },
-    "SteamID": 3624190,
-    "TotalFiles": 1
-  },
-  {
-    "CompressionResults": [
-      {
-        "AfterBytes": 1172888886,
-        "BeforeBytes": 1353880143,
-        "CompType": 0,
-        "TotalResults": 1
-      }
-    ],
-    "Confidence": 0,
-    "FolderName": "Remnants Of Yore Playtest",
-    "GameName": "Remnants Of Yore Playtest",
-    "PoorlyCompressedExtensions": {
+      ".ucas": 2,
+      ".mp4": 8,
       ".cur": 1,
-      ".ucas": 2
+      ".pak": 1
     },
+    "TotalFiles": 1
+  },
+  {
+    "SteamID": 3584190,
+    "GameName": "Three Sisters",
+    "FolderName": "Three Sisters",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 3,
+        "BeforeBytes": 884720413,
+        "AfterBytes": 757743968,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".webm": 6,
+      ".png": 5,
+      ".rpgmvp": 2652,
+      ".rpgmvo": 616,
+      ".png~": 101,
+      ".css": 1
+    },
+    "TotalFiles": 1
+  },
+  {
+    "SteamID": 3592280,
+    "GameName": "Easy Delivery Co. Demo",
+    "FolderName": "EDCo_Demo",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 0,
+        "BeforeBytes": 547147916,
+        "AfterBytes": 383304757,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".resource": 8,
+      ".plist": 2,
+      ".browser": 6,
+      ".json": 4,
+      ".icns": 1,
+      ".xcprivacy": 1,
+      ".info": 2,
+      ".map": 6
+    },
+    "TotalFiles": 1
+  },
+  {
+    "SteamID": 3599070,
+    "GameName": "waxweaver",
+    "FolderName": "waxweaver",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 2,
+        "BeforeBytes": 89407088,
+        "AfterBytes": 47304704,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {},
+    "TotalFiles": 1
+  },
+  {
+    "SteamID": 3624190,
+    "GameName": "Dune: Awakening Beta Weekend",
+    "FolderName": "Dune Awakening Beta",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 2,
+        "BeforeBytes": 42399988209,
+        "AfterBytes": 36675449107,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".pem": 2,
+      ".json": 2,
+      ".cfg": 1,
+      ".bk2": 24,
+      ".txt": 5,
+      ".bat": 2,
+      ".bin": 2
+    },
+    "TotalFiles": 1
+  },
+  {
     "SteamID": 3653860,
+    "GameName": "Remnants Of Yore Playtest",
+    "FolderName": "Remnants Of Yore Playtest",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 0,
+        "BeforeBytes": 1353880143,
+        "AfterBytes": 1172888886,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".ucas": 2,
+      ".cur": 1
+    },
     "TotalFiles": 1
   }
 ]
