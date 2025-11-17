@@ -1,5 +1,115 @@
 [
   {
+    "SteamID": 11140,
+    "GameName": "Sherlock Holmes: The Awakened (2008)",
+    "FolderName": "Sherlock Holmes The Awakened - Remastered",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 2,
+        "BeforeBytes": 2416873200,
+        "AfterBytes": 1840626974,
+        "TotalResults": 1
+      },
+      {
+        "CompType": 3,
+        "BeforeBytes": 2223840593,
+        "AfterBytes": 1533832877,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".cab": 308,
+      ".msi": 2
+    },
+    "TotalFiles": 2
+  },
+  {
+    "SteamID": 11150,
+    "GameName": "Sherlock Holmes: The Secret of the Silver Earring",
+    "FolderName": "Sherlock Holmes The Secret of the Silver Earring",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 2,
+        "BeforeBytes": 1571726102,
+        "AfterBytes": 1420374905,
+        "TotalResults": 1
+      },
+      {
+        "CompType": 3,
+        "BeforeBytes": 1600988936,
+        "AfterBytes": 1410756337,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".en": 81,
+      ".ini": 2,
+      ".cab": 308,
+      ".bik": 31,
+      ".txt": 2,
+      ".bat": 2,
+      ".0000": 4,
+      ".de": 80
+    },
+    "TotalFiles": 2
+  },
+  {
+    "SteamID": 11170,
+    "GameName": "Blood Bowl: Dark Elves Edition",
+    "FolderName": "Blood Bowl",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 3,
+        "BeforeBytes": 3452918334,
+        "AfterBytes": 1810679176,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".layouts": 1,
+      ".cab": 123,
+      ".ogg": 3108,
+      ".bat": 1,
+      ".font": 96,
+      ".lua": 2,
+      ".manifest": 1,
+      ".vdf": 1,
+      ".txt": 2,
+      ".ifl": 15
+    },
+    "TotalFiles": 1
+  },
+  {
+    "SteamID": 11180,
+    "GameName": "Sherlock Holmes: The Mystery of The Persian Carpet",
+    "FolderName": "Sherlock Holmes Mystery of the Persian Carpet",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 2,
+        "BeforeBytes": 200743806,
+        "AfterBytes": 191387245,
+        "TotalResults": 1
+      },
+      {
+        "CompType": 3,
+        "BeforeBytes": 197968450,
+        "AfterBytes": 189867933,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".cab": 246,
+      ".ini": 4,
+      ".jpg": 4,
+      ".pak": 5
+    },
+    "TotalFiles": 2
+  },
+  {
     "SteamID": 11190,
     "GameName": "Sherlock Holmes versus Jack the Ripper",
     "FolderName": "Sherlock Holmes versus Jack the Ripper",
@@ -96,23 +206,23 @@
     "CompressionResults": [
       {
         "CompType": 3,
-        "BeforeBytes": 1850007855,
-        "AfterBytes": 699707627,
-        "TotalResults": 1
+        "BeforeBytes": 1852491402,
+        "AfterBytes": 700750798,
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".cfg": 1,
-      ".xgz": 2,
-      ".PNG": 1,
-      ".st": 1,
-      ".wmv": 3,
-      ".png": 6,
-      ".fx": 3,
-      ".ogg": 28,
-      ".bat": 1
+      ".png": 12,
+      ".st": 2,
+      ".cfg": 2,
+      ".ogg": 56,
+      ".bat": 2,
+      ".PNG": 2,
+      ".xgz": 4,
+      ".fx": 6,
+      ".wmv": 3
     },
-    "TotalFiles": 1
+    "TotalFiles": 2
   },
   {
     "SteamID": 11260,
@@ -124,21 +234,21 @@
         "CompType": 3,
         "BeforeBytes": 1833937532,
         "AfterBytes": 1541599314,
-        "TotalResults": 1
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".png": 21,
-      ".cab": 95,
-      ".st": 1,
-      ".cfg": 1,
-      ".ogg": 44,
-      ".bat": 2,
-      ".PNG": 1,
-      ".xgz": 2,
-      ".vdf": 1
+      ".cfg": 2,
+      ".xgz": 4,
+      ".PNG": 2,
+      ".cab": 190,
+      ".st": 2,
+      ".vdf": 2,
+      ".png": 42,
+      ".ogg": 88,
+      ".bat": 4
     },
-    "TotalFiles": 1
+    "TotalFiles": 2
   },
   {
     "SteamID": 11280,
@@ -150,20 +260,20 @@
         "CompType": 3,
         "BeforeBytes": 43146554,
         "AfterBytes": 25770887,
-        "TotalResults": 1
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".cfg": 1,
-      ".dml": 2,
-      ".pdf": 1,
-      ".png": 357,
-      ".ogg": 12,
-      ".ifl": 1,
-      ".bat": 1,
-      ".dtx": 1
+      ".png": 714,
+      ".cfg": 2,
+      ".bat": 2,
+      ".ogg": 24,
+      ".dtx": 2,
+      ".ifl": 2,
+      ".dml": 4,
+      ".pdf": 2
     },
-    "TotalFiles": 1
+    "TotalFiles": 2
   },
   {
     "SteamID": 11330,
@@ -193,17 +303,17 @@
         "CompType": 3,
         "BeforeBytes": 56812720,
         "AfterBytes": 55338361,
-        "TotalResults": 1
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".zip": 1,
-      ".hfl": 1,
-      ".png": 26,
-      ".sav": 1,
-      ".txt": 2
+      ".png": 52,
+      ".txt": 4,
+      ".hfl": 2,
+      ".zip": 2,
+      ".sav": 2
     },
-    "TotalFiles": 1
+    "TotalFiles": 2
   },
   {
     "SteamID": 11360,
@@ -357,9 +467,9 @@
       },
       {
         "CompType": 2,
-        "BeforeBytes": 3286575460,
-        "AfterBytes": 2546377566,
-        "TotalResults": 2
+        "BeforeBytes": 3473867342,
+        "AfterBytes": 2673943251,
+        "TotalResults": 3
       },
       {
         "CompType": 3,
@@ -369,19 +479,19 @@
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".dat": 48,
+      ".dat": 54,
       ".cab": 615,
-      ".ico": 22,
-      ".vdf": 12,
-      "": 8,
-      ".mp3": 19050,
-      ".dta": 49,
-      ".debug-vpk": 35,
-      ".env": 7,
-      ".map": 42,
-      ".bik": 129
+      ".ico": 25,
+      ".vdf": 13,
+      "": 9,
+      ".mp3": 21069,
+      ".dta": 56,
+      ".debug-vpk": 40,
+      ".env": 8,
+      ".map": 48,
+      ".bik": 146
     },
-    "TotalFiles": 8
+    "TotalFiles": 9
   },
   {
     "SteamID": 11480,
@@ -518,24 +628,24 @@
       },
       {
         "CompType": 2,
-        "BeforeBytes": 2350750280,
-        "AfterBytes": 1315882165,
-        "TotalResults": 7
+        "BeforeBytes": 2704209291,
+        "AfterBytes": 1545703918,
+        "TotalResults": 9
       },
       {
         "CompType": 3,
-        "BeforeBytes": 1296185778,
-        "AfterBytes": 708394214,
-        "TotalResults": 10
+        "BeforeBytes": 1296185782,
+        "AfterBytes": 708394218,
+        "TotalResults": 13
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".vdf": 19,
-      ".url": 19,
-      ".zon": 38,
-      ".ini": 49
+      ".vdf": 24,
+      ".url": 24,
+      ".zon": 48,
+      ".ini": 57
     },
-    "TotalFiles": 19
+    "TotalFiles": 24
   },
   {
     "SteamID": 12110,
@@ -551,35 +661,35 @@
       },
       {
         "CompType": 1,
-        "BeforeBytes": 3593552184,
-        "AfterBytes": 2838242942,
-        "TotalResults": 2
+        "BeforeBytes": 2925686955,
+        "AfterBytes": 2351921597,
+        "TotalResults": 3
       },
       {
         "CompType": 2,
-        "BeforeBytes": 2806344902,
-        "AfterBytes": 2134669024,
-        "TotalResults": 6
+        "BeforeBytes": 2631059896,
+        "AfterBytes": 2024109025,
+        "TotalResults": 7
       },
       {
         "CompType": 3,
         "BeforeBytes": 1574222382,
         "AfterBytes": 1303367818,
-        "TotalResults": 9
+        "TotalResults": 12
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".adf": 180,
-      ".ico": 40,
-      ".vdf": 20
+      ".adf": 225,
+      ".vdf": 25,
+      ".ico": 50
     },
-    "TotalFiles": 20
+    "TotalFiles": 25
   },
   {
     "SteamID": 12120,
     "GameName": "Grand Theft Auto: San Andreas",
     "FolderName": "Grand Theft Auto San Andreas",
-    "Confidence": 2,
+    "Confidence": 1,
     "CompressionResults": [
       {
         "CompType": 0,
@@ -589,9 +699,9 @@
       },
       {
         "CompType": 1,
-        "BeforeBytes": 6767579148,
-        "AfterBytes": 5343399937,
-        "TotalResults": 4
+        "BeforeBytes": 6614802292,
+        "AfterBytes": 5118091228,
+        "TotalResults": 6
       },
       {
         "CompType": 2,
@@ -601,18 +711,18 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 5229038213,
-        "AfterBytes": 4124883589,
-        "TotalResults": 9
+        "BeforeBytes": 5326577257,
+        "AfterBytes": 4133986180,
+        "TotalResults": 14
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".vdf": 23,
-      ".ico": 28,
+      ".vdf": 29,
+      ".ico": 35,
       ".dff": 1705,
-      ".ini": 65
+      ".ini": 70
     },
-    "TotalFiles": 24
+    "TotalFiles": 31
   },
   {
     "SteamID": 12130,
@@ -628,21 +738,21 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 2025615824,
-        "AfterBytes": 1657374846,
-        "TotalResults": 1
+        "BeforeBytes": 2138922923,
+        "AfterBytes": 1737346993,
+        "TotalResults": 3
       }
     ],
     "PoorlyCompressedExtensions": {
       ".ini": 6,
-      ".sub": 48,
-      ".vdf": 3,
+      ".sub": 80,
+      ".vdf": 5,
       ".txt": 63,
-      ".scc": 3,
-      ".url": 12,
-      ".bik": 63
+      ".scc": 5,
+      ".url": 20,
+      ".bik": 105
     },
-    "TotalFiles": 3
+    "TotalFiles": 5
   },
   {
     "SteamID": 12140,
@@ -651,29 +761,37 @@
     "Confidence": 0,
     "CompressionResults": [
       {
+        "CompType": 0,
+        "BeforeBytes": 831157520,
+        "AfterBytes": 715453727,
+        "TotalResults": 1
+      },
+      {
         "CompType": 1,
         "BeforeBytes": 2823103541,
         "AfterBytes": 2055951473,
         "TotalResults": 1
       },
       {
-        "CompType": 3,
+        "CompType": 2,
         "BeforeBytes": 831157520,
-        "AfterBytes": 661275814,
-        "TotalResults": 2
+        "AfterBytes": 682050847,
+        "TotalResults": 1
+      },
+      {
+        "CompType": 3,
+        "BeforeBytes": 1154642971,
+        "AfterBytes": 788533420,
+        "TotalResults": 3
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".vdf": 3,
-      ".gif": 15,
-      ".txt": 2,
-      ".css": 12,
-      ".ini": 2,
-      ".jpg": 586,
-      ".html": 1,
-      ".JPG": 11
+      ".css": 24,
+      ".gif": 30,
+      ".vdf": 6,
+      ".txt": 4
     },
-    "TotalFiles": 3
+    "TotalFiles": 6
   },
   {
     "SteamID": 12150,
@@ -685,7 +803,7 @@
         "CompType": 0,
         "BeforeBytes": 1668252304,
         "AfterBytes": 1437271267,
-        "TotalResults": 2
+        "TotalResults": 3
       },
       {
         "CompType": 3,
@@ -695,14 +813,14 @@
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".vdf": 4,
-      ".gif": 24,
-      ".txt": 4,
-      ".css": 16,
-      ".url": 8,
-      ".bik": 6
+      ".vdf": 5,
+      ".gif": 30,
+      ".txt": 5,
+      ".css": 20,
+      ".url": 10,
+      ".bik": 9
     },
-    "TotalFiles": 4
+    "TotalFiles": 5
   },
   {
     "SteamID": 12160,
@@ -714,15 +832,15 @@
         "CompType": 3,
         "BeforeBytes": 1607290690,
         "AfterBytes": 1422612146,
-        "TotalResults": 1
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".bik": 83,
-      ".cfg": 1,
-      ".bat": 1
+      ".bik": 166,
+      ".cfg": 2,
+      ".bat": 2
     },
-    "TotalFiles": 1
+    "TotalFiles": 2
   },
   {
     "SteamID": 12170,
@@ -787,9 +905,9 @@
       },
       {
         "CompType": 1,
-        "BeforeBytes": 5337963434,
-        "AfterBytes": 3916670130,
-        "TotalResults": 2
+        "BeforeBytes": 5333689256,
+        "AfterBytes": 3915268496,
+        "TotalResults": 4
       },
       {
         "CompType": 2,
@@ -799,26 +917,26 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 5480450082,
-        "AfterBytes": 3658411360,
-        "TotalResults": 4
+        "BeforeBytes": 5450850088,
+        "AfterBytes": 3658372176,
+        "TotalResults": 5
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".h": 18,
-      ".MXD": 19,
-      ".cab": 1710,
-      ".htb": 60,
-      ".jpg": 19,
-      ".wmv": 152,
-      ".vdf": 19,
-      ".ct": 20,
-      ".xgs": 19,
+      ".h": 21,
+      ".MXD": 22,
+      ".cab": 1995,
+      ".htb": 69,
+      ".jpg": 22,
+      ".wmv": 176,
+      ".vdf": 22,
+      ".ct": 23,
+      ".xgs": 22,
       ".hdt": 80,
-      ".bdr": 19,
-      ".mp3": 234
+      ".bdr": 22,
+      ".mp3": 286
     },
-    "TotalFiles": 19
+    "TotalFiles": 22
   },
   {
     "SteamID": 12210,
@@ -834,43 +952,43 @@
       },
       {
         "CompType": 1,
-        "BeforeBytes": 24174900162,
-        "AfterBytes": 21957565195,
-        "TotalResults": 12
+        "BeforeBytes": 24509403733,
+        "AfterBytes": 22264672940,
+        "TotalResults": 14
       },
       {
         "CompType": 2,
-        "BeforeBytes": 24399142597,
-        "AfterBytes": 21959197181,
-        "TotalResults": 21
+        "BeforeBytes": 24806556743,
+        "AfterBytes": 22332921935,
+        "TotalResults": 27
       },
       {
         "CompType": 3,
-        "BeforeBytes": 25625419872,
-        "AfterBytes": 22876592903,
-        "TotalResults": 19
+        "BeforeBytes": 25357455246,
+        "AfterBytes": 22657454135,
+        "TotalResults": 28
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".png": 368,
-      ".ini": 88,
-      ".wtd": 13606,
-      ".wpfl": 333,
-      ".cfg": 208,
-      ".dat11": 64,
-      ".whm": 47838,
-      ".sps": 8783,
-      ".wdd": 132,
-      ".DAT12": 119,
-      ".vdf": 135,
-      ".rgl": 35,
-      ".img": 16048,
-      ".list": 70,
-      ".tag": 197,
-      ".dcl": 6736,
-      ".bik": 592
+      ".vdf": 169,
+      ".wtd": 17429,
+      ".img": 20687,
+      ".cfg": 275,
+      ".sps": 11056,
+      ".dcl": 8482,
+      ".whm": 60180,
+      ".wpfl": 444,
+      ".rgl": 52,
+      ".bik": 745,
+      ".png": 444,
+      ".tag": 248,
+      ".list": 99,
+      ".dat11": 81,
+      ".wdd": 169,
+      ".ini": 133,
+      ".DAT12": 119
     },
-    "TotalFiles": 65
+    "TotalFiles": 82
   },
   {
     "SteamID": 12310,
@@ -1689,6 +1807,12 @@
     "Confidence": 0,
     "CompressionResults": [
       {
+        "CompType": 0,
+        "BeforeBytes": 4187527136,
+        "AfterBytes": 3312788203,
+        "TotalResults": 1
+      },
+      {
         "CompType": 1,
         "BeforeBytes": 4187527136,
         "AfterBytes": 3205619505,
@@ -1708,14 +1832,14 @@
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".cab": 615,
-      ".bik": 70,
-      ".dat": 10,
-      ".vdf": 5,
-      ".ini": 5,
-      ".mp3": 19803
+      ".cab": 738,
+      ".bik": 84,
+      ".dat": 12,
+      ".vdf": 6,
+      ".ini": 6,
+      ".mp3": 24807
     },
-    "TotalFiles": 5
+    "TotalFiles": 6
   },
   {
     "SteamID": 12830,
@@ -1725,57 +1849,57 @@
     "CompressionResults": [
       {
         "CompType": 3,
-        "BeforeBytes": 5553777902,
-        "AfterBytes": 4598245590,
-        "TotalResults": 2
+        "BeforeBytes": 5549815922,
+        "AfterBytes": 4597155845,
+        "TotalResults": 3
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".260": 2,
-      ".264": 2,
-      ".204": 2,
-      ".txt": 3,
-      ".chm": 2,
-      ".273": 2,
-      ".263": 2,
-      ".203": 2,
-      ".267": 2,
-      ".swf": 82,
-      ".cursor": 16,
-      ".272": 2,
-      ".css": 2,
-      ".197": 2,
-      ".002": 2,
-      ".vdf": 2,
-      ".cab": 246,
-      ".196": 2,
-      ".262": 2,
-      ".bik": 12,
-      ".202": 2,
-      ".234": 2,
-      ".266": 2,
-      ".206": 2,
-      ".jpg": 2,
-      ".xsl": 2,
-      ".165": 2,
-      ".199": 2,
-      ".271": 2,
-      ".269": 2,
-      ".261": 2,
-      ".201": 2,
-      ".265": 2,
-      ".205": 2,
-      ".png": 340,
-      ".fx": 6,
-      ".520": 2,
-      ".270": 2,
-      ".268": 2,
-      ".200": 2,
-      ".bat": 2,
-      ".198": 2,
+      ".002": 3,
+      ".202": 3,
+      ".203": 3,
+      ".cab": 369,
+      ".bik": 18,
+      ".swf": 123,
+      ".css": 3,
+      ".260": 3,
+      ".png": 505,
+      ".197": 3,
+      ".198": 3,
+      ".cursor": 24,
+      ".165": 3,
+      ".270": 3,
+      ".271": 3,
+      ".206": 3,
+      ".264": 3,
+      ".265": 3,
+      ".200": 3,
+      ".201": 3,
+      ".272": 3,
+      ".273": 3,
+      ".204": 3,
+      ".fx": 12,
+      ".196": 3,
+      ".261": 3,
+      ".262": 3,
+      ".267": 3,
+      ".txt": 4,
+      ".199": 3,
+      ".269": 3,
+      ".chm": 3,
+      ".205": 3,
+      ".266": 3,
+      ".234": 3,
+      ".268": 3,
+      ".bat": 3,
+      ".263": 3,
+      ".520": 3,
+      ".vdf": 3,
+      ".jpg": 3,
+      ".xsl": 3,
       ".ini": 2
     },
-    "TotalFiles": 2
+    "TotalFiles": 3
   },
   {
     "SteamID": 12840,
@@ -1809,7 +1933,7 @@
     "SteamID": 12900,
     "GameName": "Audiosurf",
     "FolderName": "Audiosurf",
-    "Confidence": 0,
+    "Confidence": 2,
     "CompressionResults": [
       {
         "CompType": 1,
@@ -1825,24 +1949,24 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 444844330,
-        "AfterBytes": 383706933,
-        "TotalResults": 4
+        "BeforeBytes": 445489488,
+        "AfterBytes": 384192444,
+        "TotalResults": 5
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".ini": 16,
-      ".jpg": 40,
-      ".wmv": 40,
-      ".manifest": 32,
-      ".lst": 6,
-      ".cgr": 1124,
-      ".png": 760,
-      ".mp3": 760,
-      ".ogg": 440,
-      ".q3d": 8
+      ".ini": 18,
+      ".jpg": 45,
+      ".wmv": 45,
+      ".manifest": 36,
+      ".lst": 7,
+      ".cgr": 1285,
+      ".png": 855,
+      ".mp3": 855,
+      ".ogg": 495,
+      ".q3d": 9
     },
-    "TotalFiles": 8
+    "TotalFiles": 9
   },
   {
     "SteamID": 13000,
@@ -1923,24 +2047,24 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 9491409054,
-        "AfterBytes": 8111782949,
-        "TotalResults": 1
+        "BeforeBytes": 9864980612,
+        "AfterBytes": 8470307392,
+        "TotalResults": 4
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".url": 20,
-      ".cab": 213,
-      ".vdf": 4,
-      ".tga": 372,
-      ".html": 24,
-      ".fxg": 20,
-      ".bik": 82,
+      ".url": 35,
+      ".cab": 426,
+      ".vdf": 7,
+      ".tga": 651,
+      ".html": 42,
+      ".fxg": 35,
+      ".bik": 148,
       ".BMP": 4,
-      ".css": 12,
-      ".chm": 4
+      ".css": 21,
+      ".chm": 7
     },
-    "TotalFiles": 4
+    "TotalFiles": 7
   },
   {
     "SteamID": 13230,
@@ -1997,23 +2121,23 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 701173888,
-        "AfterBytes": 439551908,
-        "TotalResults": 2
+        "BeforeBytes": 4881371239,
+        "AfterBytes": 3271828110,
+        "TotalResults": 3
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".url": 12,
-      ".cab": 284,
-      ".vdf": 4,
-      ".ico": 16,
-      ".pdf": 4,
-      ".gif": 92,
-      ".scc": 4,
-      ".bat": 4,
-      ".mpi": 4
+      ".cab": 355,
+      ".ico": 20,
+      ".mpi": 5,
+      ".pdf": 5,
+      ".url": 15,
+      ".gif": 115,
+      ".bat": 5,
+      ".scc": 5,
+      ".vdf": 5
     },
-    "TotalFiles": 4
+    "TotalFiles": 5
   },
   {
     "SteamID": 13250,
@@ -2025,7 +2149,7 @@
         "CompType": 1,
         "BeforeBytes": 648568229,
         "AfterBytes": 394196328,
-        "TotalResults": 2
+        "TotalResults": 3
       },
       {
         "CompType": 2,
@@ -2041,13 +2165,13 @@
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".cab": 355,
-      ".vdf": 6,
-      ".gif": 42,
-      ".ico": 14,
-      ".pdf": 10
+      ".cab": 426,
+      ".vdf": 7,
+      ".gif": 49,
+      ".ico": 16,
+      ".pdf": 11
     },
-    "TotalFiles": 6
+    "TotalFiles": 7
   },
   {
     "SteamID": 13500,
@@ -2126,27 +2250,27 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 5573316390,
-        "AfterBytes": 4277119027,
-        "TotalResults": 3
+        "BeforeBytes": 5242051923,
+        "AfterBytes": 4010099004,
+        "TotalResults": 4
       }
     ],
     "PoorlyCompressedExtensions": {
       ".cgps": 1341,
-      ".cgasm": 672,
-      ".bik": 102,
+      ".cgasm": 768,
+      ".bik": 117,
       ".avi": 60,
-      ".cry": 272,
+      ".cry": 310,
       ".PAK": 7,
-      ".tip": 7,
+      ".tip": 8,
       ".cgvp": 1420,
       ".sav": 55,
-      ".url": 14,
-      ".ini": 16,
-      ".vdf": 7,
-      ".cmd": 21
+      ".url": 16,
+      ".ini": 18,
+      ".vdf": 8,
+      ".cmd": 24
     },
-    "TotalFiles": 7
+    "TotalFiles": 8
   },
   {
     "SteamID": 13530,
@@ -2204,32 +2328,38 @@
         "BeforeBytes": 6709738175,
         "AfterBytes": 5153845710,
         "TotalResults": 1
+      },
+      {
+        "CompType": 3,
+        "BeforeBytes": 6709738175,
+        "AfterBytes": 4861408564,
+        "TotalResults": 1
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".raw": 216,
-      ".usdx": 168,
-      ".bik": 189,
+      ".raw": 288,
+      ".usdx": 224,
+      ".bik": 252,
       ".TXT": 6,
-      ".pub": 3,
-      ".png": 63,
+      ".pub": 4,
+      ".png": 84,
       ".SS0": 99,
-      ".us": 3,
-      ".uk": 3,
-      ".it": 3,
-      ".fr": 3,
-      ".es": 3,
-      ".de": 3,
-      ".cfg": 6,
-      ".cab": 87,
+      ".us": 4,
+      ".uk": 4,
+      ".it": 4,
+      ".fr": 4,
+      ".es": 4,
+      ".de": 4,
+      ".cfg": 8,
+      ".cab": 116,
       "": 2,
-      ".dat": 3,
-      ".bat": 3,
+      ".dat": 4,
+      ".bat": 4,
       ".INI": 3,
-      ".pdf": 3,
-      ".vdf": 3
+      ".pdf": 4,
+      ".vdf": 4
     },
-    "TotalFiles": 3
+    "TotalFiles": 4
   },
   {
     "SteamID": 13560,
@@ -2245,23 +2375,23 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 1695706467,
-        "AfterBytes": 1388342412,
-        "TotalResults": 2
+        "BeforeBytes": 1687999692,
+        "AfterBytes": 1385034713,
+        "TotalResults": 3
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".cab": 20,
-      ".msi": 4,
-      ".vdf": 4,
-      ".bik": 144,
+      ".vdf": 5,
+      ".bik": 180,
+      ".cab": 26,
+      ".bat": 25,
+      ".msi": 5,
       ".INI": 4,
       ".CAB": 4,
-      ".bat": 20,
       ".log": 2,
       ".bin": 7320
     },
-    "TotalFiles": 4
+    "TotalFiles": 5
   },
   {
     "SteamID": 13570,
@@ -2276,6 +2406,12 @@
         "TotalResults": 1
       },
       {
+        "CompType": 1,
+        "BeforeBytes": 3895993467,
+        "AfterBytes": 3195718590,
+        "TotalResults": 1
+      },
+      {
         "CompType": 2,
         "BeforeBytes": 4502585207,
         "AfterBytes": 3627787062,
@@ -2283,24 +2419,24 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 3870257449,
-        "AfterBytes": 2956905638,
-        "TotalResults": 1
+        "BeforeBytes": 3962355644,
+        "AfterBytes": 3035310808,
+        "TotalResults": 3
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".ico": 3,
-      ".LS0": 140,
-      ".sdc": 295,
-      ".utc": 174,
-      ".uas": 138,
-      ".mux": 63,
-      ".bat": 4,
-      ".CAB": 4,
-      ".cab": 20,
-      ".vdf": 4
+      ".ico": 4,
+      ".LS0": 180,
+      ".sdc": 421,
+      ".utc": 231,
+      ".uas": 201,
+      ".mux": 108,
+      ".bat": 7,
+      ".CAB": 10,
+      ".cab": 32,
+      ".vdf": 7
     },
-    "TotalFiles": 4
+    "TotalFiles": 7
   },
   {
     "SteamID": 13580,
@@ -2310,46 +2446,52 @@
     "CompressionResults": [
       {
         "CompType": 2,
-        "BeforeBytes": 11494775395,
-        "AfterBytes": 8546770359,
+        "BeforeBytes": 10064039229,
+        "AfterBytes": 7467274116,
+        "TotalResults": 2
+      },
+      {
+        "CompType": 3,
+        "BeforeBytes": 11494751776,
+        "AfterBytes": 8005163084,
         "TotalResults": 1
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".png": 1,
-      ".scc": 7,
-      ".zip": 4,
-      ".mep": 1,
+      ".fx": 3,
+      ".cab": 198,
+      ".bat": 9,
+      ".ops": 3,
+      ".cfg": 3,
+      ".bik": 246,
+      ".jpg": 4,
+      ".bin": 5,
+      ".png": 4,
+      ".done": 3,
+      ".xdi": 3,
+      ".vbs": 3,
+      ".CONFIG": 3,
+      ".vdf": 3,
+      ".scc": 14,
+      ".zip": 8,
+      ".mep": 2,
       ".INI": 1,
-      ".done": 1,
-      ".cub": 1,
-      ".lzi": 6,
-      ".mzf": 1,
-      ".pub": 1,
-      ".mcd": 8,
+      ".cub": 2,
+      ".lzi": 12,
+      ".mzf": 2,
+      ".pub": 2,
+      ".mcd": 16,
       ".dat": 1,
-      ".cab": 66,
-      ".cfg": 1,
-      ".hde": 2,
-      ".vsb": 55,
-      ".xdi": 1,
-      ".bat": 3,
-      ".manifest": 1,
-      ".bik": 166,
-      ".hdi": 1,
-      ".bin": 2,
-      ".fx": 1,
-      ".jpg": 2,
-      ".ops": 1,
+      ".hde": 4,
+      ".vsb": 110,
+      ".manifest": 2,
+      ".hdi": 2,
       ".eng": 1,
-      ".vdf": 1,
-      ".rc2": 1,
-      ".bak": 1,
-      ".psb": 448,
-      ".vbs": 1,
-      ".CONFIG": 1
+      ".rc2": 2,
+      ".bak": 2,
+      ".psb": 896
     },
-    "TotalFiles": 1
+    "TotalFiles": 3
   },
   {
     "SteamID": 13600,
@@ -2402,36 +2544,34 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 2021840694,
-        "AfterBytes": 965721248,
-        "TotalResults": 1
+        "BeforeBytes": 2021841120,
+        "AfterBytes": 965721674,
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".env": 763,
-      ".atr": 9292,
+      ".env": 811,
+      ".atr": 10958,
       ".WAV": 3,
-      ".toe": 12,
-      ".kit": 168585,
-      ".gun": 1867,
+      ".toe": 14,
+      ".kit": 168802,
+      ".gun": 1930,
       ".GUN": 42,
-      ".itm": 113,
-      ".prj": 142,
-      ".vcl": 261,
+      ".itm": 120,
+      ".prj": 152,
+      ".vcl": 282,
       ".mov": 26,
-      ".ass": 3,
-      ".anm": 233,
-      ".ini": 3,
-      ".bin": 3,
+      ".ass": 4,
+      ".anm": 240,
+      ".ini": 4,
+      ".bin": 4,
       ".ex_": 2,
-      ".cab": 6,
-      ".bat": 1,
-      ".vdf": 3,
+      ".cab": 8,
+      ".vdf": 4,
       ".7z": 322,
-      ".csf_bin": 1,
-      ".qmk": 3
+      ".qmk": 6
     },
-    "TotalFiles": 3
+    "TotalFiles": 4
   },
   {
     "SteamID": 13640,
@@ -2476,34 +2616,40 @@
         "BeforeBytes": 6612122150,
         "AfterBytes": 4181832085,
         "TotalResults": 1
+      },
+      {
+        "CompType": 3,
+        "BeforeBytes": 6612114879,
+        "AfterBytes": 3836974609,
+        "TotalResults": 1
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".waf": 2,
-      ".acm": 8,
-      ".hlsl": 12,
-      ".cab": 24,
-      ".pro": 2,
-      ".cms": 320,
-      ".wsf": 158,
-      ".skl": 142,
-      ".itm": 14,
+      ".waf": 3,
+      ".acm": 12,
+      ".hlsl": 18,
+      ".cab": 36,
+      ".pro": 3,
+      ".cms": 480,
+      ".wsf": 237,
+      ".skl": 213,
+      ".itm": 21,
       ".GUN": 2,
-      ".key": 2,
-      ".INI": 2,
-      ".nsf": 2,
-      ".vdf": 2,
+      ".key": 3,
+      ".INI": 3,
+      ".nsf": 3,
+      ".vdf": 3,
       ".pdf": 10,
-      ".mtm": 6,
-      ".prj": 26,
-      ".scc": 6,
-      ".remap": 98,
-      ".cgs": 78,
-      ".env": 100,
-      ".bik": 36,
+      ".mtm": 9,
+      ".prj": 39,
+      ".scc": 9,
+      ".remap": 147,
+      ".cgs": 117,
+      ".env": 150,
+      ".bik": 54,
       ".log": 1
     },
-    "TotalFiles": 2
+    "TotalFiles": 3
   },
   {
     "SteamID": 15080,
@@ -2521,35 +2667,35 @@
         "CompType": 3,
         "BeforeBytes": 1464455203,
         "AfterBytes": 1341974895,
-        "TotalResults": 1
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".bik": 51,
-      ".vdf": 3,
+      ".bik": 68,
+      ".vdf": 4,
       ".CAB": 3,
-      ".lnk": 3,
-      ".cab": 10
+      ".lnk": 4,
+      ".cab": 16
     },
-    "TotalFiles": 3
+    "TotalFiles": 4
   },
   {
     "SteamID": 15100,
     "GameName": "Assassin's Creed",
     "FolderName": "Assassins Creed",
-    "Confidence": 0,
+    "Confidence": 2,
     "CompressionResults": [
       {
         "CompType": 0,
         "BeforeBytes": 7226628255,
         "AfterBytes": 6755585997,
-        "TotalResults": 1
+        "TotalResults": 2
       },
       {
         "CompType": 1,
         "BeforeBytes": 7226628255,
-        "AfterBytes": 7148075213,
-        "TotalResults": 1
+        "AfterBytes": 6865495509,
+        "TotalResults": 2
       },
       {
         "CompType": 2,
@@ -2559,17 +2705,17 @@
       },
       {
         "CompType": 3,
-        "BeforeBytes": 7226628255,
-        "AfterBytes": 6311187859,
-        "TotalResults": 3
+        "BeforeBytes": 7225154127,
+        "AfterBytes": 6309449107,
+        "TotalResults": 6
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".cab": 525,
-      ".vdf": 7,
-      ".bik": 35
+      ".cab": 900,
+      ".vdf": 12,
+      ".bik": 60
     },
-    "TotalFiles": 7
+    "TotalFiles": 12
   },
   {
     "SteamID": 15120,
@@ -2594,29 +2740,34 @@
         "BeforeBytes": 7239274743,
         "AfterBytes": 5435144575,
         "TotalResults": 3
+      },
+      {
+        "CompType": 3,
+        "BeforeBytes": 7229051478,
+        "AfterBytes": 5130573967,
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".png": 684,
-      ".cab": 525,
-      ".pub": 12,
-      ".raw": 432,
-      ".bat": 21,
+      ".png": 910,
+      ".cab": 675,
+      ".pub": 16,
+      ".raw": 576,
+      ".bat": 27,
       ".SS0": 281,
-      ".mod": 21,
       ".PNG": 24,
-      ".lua": 12,
+      ".lua": 16,
       ".INI": 6,
-      ".vdf": 6,
-      ".pdf": 23,
+      ".vdf": 8,
+      ".pdf": 27,
       ".TXT": 24,
-      "": 4,
-      ".usdx": 492,
-      ".PAM": 6,
-      ".mdl": 6,
+      "": 5,
+      ".usdx": 656,
+      ".PAM": 8,
+      ".mdl": 8,
       ".bik": 354
     },
-    "TotalFiles": 6
+    "TotalFiles": 8
   },
   {
     "SteamID": 15130,
@@ -2681,6 +2832,12 @@
     "Confidence": 0,
     "CompressionResults": [
       {
+        "CompType": 1,
+        "BeforeBytes": 2986382207,
+        "AfterBytes": 2159806933,
+        "TotalResults": 1
+      },
+      {
         "CompType": 2,
         "BeforeBytes": 2986382207,
         "AfterBytes": 2121715640,
@@ -2694,35 +2851,22 @@
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".msi": 3,
-      ".frt": 25,
-      ".cab": 15,
-      ".kaw": 3,
-      ".ogg": 445,
-      ".md5": 3,
-      ".ico": 3,
-      ".est": 25,
-      ".vdf": 3,
+      ".msi": 4,
+      ".frt": 26,
+      ".cab": 21,
+      ".kaw": 4,
+      ".ogg": 593,
+      ".md5": 4,
+      ".ico": 4,
+      ".est": 26,
+      ".vdf": 4,
       ".CAB": 3,
-      ".url": 8,
-      ".det": 25,
-      ".bik": 24,
-      ".itt": 25,
-      ".py": 1,
-      ".jpg": 3,
-      ".jpt": 22,
-      "": 1,
-      ".kot": 22,
-      ".tct": 22,
-      ".dds": 1,
-      ".INT": 1,
-      ".pol": 22,
-      ".png": 119,
-      ".rut": 22,
-      ".xml": 3,
-      ".spt": 22
+      ".url": 10,
+      ".det": 26,
+      ".bik": 32,
+      ".itt": 26
     },
-    "TotalFiles": 3
+    "TotalFiles": 4
   },
   {
     "SteamID": 15200,
@@ -2775,24 +2919,60 @@
         "CompType": 3,
         "BeforeBytes": 2611799075,
         "AfterBytes": 1726902957,
-        "TotalResults": 1
+        "TotalResults": 2
       }
     ],
     "PoorlyCompressedExtensions": {
       ".cab": 10,
-      ".off": 28,
-      ".ogg": 38378,
-      ".sns": 196,
-      ".wmv": 24,
+      ".off": 42,
+      ".ogg": 57567,
+      ".sns": 294,
+      ".wmv": 36,
       ".anm": 18,
-      ".vdf": 2,
-      ".CAB": 2,
-      ".eqp": 200,
-      ".mp3": 2,
-      ".bik": 2,
-      ".crd": 4
+      ".vdf": 3,
+      ".CAB": 8,
+      ".eqp": 300,
+      ".mp3": 3,
+      ".bik": 3,
+      ".crd": 6
     },
-    "TotalFiles": 2
+    "TotalFiles": 3
+  },
+  {
+    "SteamID": 15240,
+    "GameName": "Silent Hunter: Wolves of the Pacific U-Boat Missions",
+    "FolderName": "Silent Hunters wolves of the pacific",
+    "Confidence": 0,
+    "CompressionResults": [
+      {
+        "CompType": 3,
+        "BeforeBytes": 5947680494,
+        "AfterBytes": 4356628898,
+        "TotalResults": 1
+      }
+    ],
+    "PoorlyCompressedExtensions": {
+      ".vdf": 2,
+      ".cab": 49,
+      ".cam": 67,
+      ".sns": 173,
+      ".ogg": 12489,
+      ".exe": 7,
+      ".pfx": 30,
+      ".sub": 21,
+      ".bik": 22,
+      ".bin": 1,
+      ".off": 20,
+      ".fx": 141,
+      ".fxclass": 21,
+      ".wmv": 2,
+      ".inc": 6,
+      ".log": 1,
+      ".ZHF": 2,
+      ".pub": 1,
+      ".BFD": 1
+    },
+    "TotalFiles": 1
   },
   {
     "SteamID": 15270,
@@ -2837,16 +3017,22 @@
     "Confidence": 0,
     "CompressionResults": [
       {
+        "CompType": 0,
+        "BeforeBytes": 8425821694,
+        "AfterBytes": 7307035131,
+        "TotalResults": 1
+      },
+      {
         "CompType": 1,
-        "BeforeBytes": 8425810540,
-        "AfterBytes": 7221885550,
-        "TotalResults": 2
+        "BeforeBytes": 8839610238,
+        "AfterBytes": 7567641098,
+        "TotalResults": 4
       },
       {
         "CompType": 2,
-        "BeforeBytes": 13154757527,
-        "AfterBytes": 11762290071,
-        "TotalResults": 1
+        "BeforeBytes": 11617883200,
+        "AfterBytes": 10157003127,
+        "TotalResults": 2
       },
       {
         "CompType": 3,
@@ -2856,25 +3042,27 @@
       }
     ],
     "PoorlyCompressedExtensions": {
-      ".mat": 2298,
-      ".ntrk": 276,
-      ".SFS": 859,
-      ".quick": 134,
-      ".gsc": 6,
-      ".ffe": 42,
-      ".gif": 42,
-      ".security": 6,
-      ".policy": 6,
+      ".SFS": 1149,
+      ".gsc": 10,
+      "": 1028,
+      ".gif": 78,
+      ".mat": 3189,
+      ".lst": 6,
+      ".log": 6,
+      ".quick": 211,
+      ".ntrk": 460,
+      ".ffe": 70,
+      ".vdf": 8,
+      ".cfg": 10,
+      ".policy": 12,
+      ".TRK": 40,
+      ".security": 8,
       ".INI": 30,
-      ".vdf": 4,
-      ".TRK": 24,
-      ".cfg": 6,
-      ".lib": 6,
-      ".iw": 6,
-      "": 508,
-      ".zip": 22
+      ".lib": 8,
+      ".iw": 8,
+      ".zip": 24
     },
-    "TotalFiles": 6
+    "TotalFiles": 10
   },
   {
     "SteamID": 15370,
@@ -2898,163 +3086,6 @@
       ".ogg": 165,
       ".cur": 101,
       ".pak": 6
-    },
-    "TotalFiles": 1
-  },
-  {
-    "SteamID": 15390,
-    "GameName": "Brothers in Arms: Hell's Highway",
-    "FolderName": "Brothers in Arms Hells Highway",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 2,
-        "BeforeBytes": 6922663904,
-        "AfterBytes": 5984356469,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 6922663904,
-        "AfterBytes": 5737625911,
-        "TotalResults": 3
-      }
-    ],
-    "PoorlyCompressedExtensions": {
-      ".time": 104,
-      ".BMP": 12,
-      ".vdf": 4,
-      ".url": 4,
-      ".tga": 384,
-      ".cab": 340,
-      ".ico": 8,
-      ".bik": 20,
-      ".retr": 340
-    },
-    "TotalFiles": 4
-  },
-  {
-    "SteamID": 15400,
-    "GameName": "Harvest: Massive Encounter",
-    "FolderName": "Harvest Massive Encounter",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 2,
-        "BeforeBytes": 113235552,
-        "AfterBytes": 68268059,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 113235552,
-        "AfterBytes": 61419863,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {
-      ".ogg": 218,
-      ".txt": 3,
-      ".zip": 14,
-      ".jpg": 20,
-      ".psh": 6,
-      ".vsh": 6,
-      ".vdf": 2
-    },
-    "TotalFiles": 2
-  },
-  {
-    "SteamID": 15500,
-    "GameName": "The Wonderful End of the World",
-    "FolderName": "The Wonderful End of the World",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 228843010,
-        "AfterBytes": 170731927,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 228843010,
-        "AfterBytes": 161983014,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {
-      ".dat": 4,
-      ".ico": 4,
-      ".txt": 6,
-      ".RAW": 2,
-      ".png": 2,
-      ".wrs": 1,
-      ".ini": 2
-    },
-    "TotalFiles": 2
-  },
-  {
-    "SteamID": 15520,
-    "GameName": "AaAaAA!!! - A Reckless Disregard for Gravity",
-    "FolderName": "AaaaaAAaaaAAAaaAAAAaAAAAA!!!",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 1,
-        "BeforeBytes": 283416015,
-        "AfterBytes": 259202239,
-        "TotalResults": 1
-      },
-      {
-        "CompType": 3,
-        "BeforeBytes": 283416015,
-        "AfterBytes": 245892470,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {
-      ".jpg": 418,
-      ".txt": 6,
-      ".dat": 4,
-      ".ini": 2,
-      ".ico": 2
-    },
-    "TotalFiles": 2
-  },
-  {
-    "SteamID": 15540,
-    "GameName": "1... 2... 3... KICK IT! (Drop That Beat Like an Ugly Baby)",
-    "FolderName": "123kickit",
-    "Confidence": 0,
-    "CompressionResults": [
-      {
-        "CompType": 3,
-        "BeforeBytes": 590714581,
-        "AfterBytes": 338972367,
-        "TotalResults": 1
-      }
-    ],
-    "PoorlyCompressedExtensions": {
-      ".pem": 9,
-      ".zip": 1,
-      ".txt": 2,
-      ".1": 1,
-      ".browser": 1,
-      ".out": 1,
-      ".pyw": 3,
-      ".gif": 34,
-      ".fs": 8,
-      ".cs": 8,
-      ".bat": 1,
-      ".map": 1,
-      ".manifest": 3,
-      ".url": 1,
-      ".sample": 1,
-      ".mask": 1,
-      ".xpm": 24,
-      ".terms": 2,
-      ".fsc": 6,
-      ".vbs": 2
     },
     "TotalFiles": 1
   }
